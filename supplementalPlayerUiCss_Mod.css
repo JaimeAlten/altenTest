@@ -1690,7 +1690,6 @@ html.tablet .bmpui-layout-max-width-400 .bmpui-ui-recommendation-overlay .bmpui-
 
 .bmpui-ui-volumeslider,
 .bmpui-ui-fullscreentogglebutton,
-.bmpui-ui-volumetogglebutton,
-.bmpui-ui-settingstogglebutton {
+.bmpui-ui-volumetogglebutton {
     display: none !important;
 }
