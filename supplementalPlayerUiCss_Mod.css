@@ -113,6 +113,7 @@
 
 .bmpui-ui-controlbar .bmpui-controlbar-bottom .bmpui-container-wrapper>button {
     opacity: .8;
+    display: none;
 }
 
 .bmpui-ui-controlbar .bmpui-controlbar-bottom .bmpui-container-wrapper>button:hover {
@@ -297,6 +298,7 @@ html.tablet .bmpui-ui-popupbutton {
     position: absolute;
     bottom: 4px;
     left: calc(50% - 2px);
+    display: none;
 }
 
 .bmpui-ui-fullscreentogglebutton {
@@ -1686,6 +1688,6 @@ html.tablet .bmpui-layout-max-width-400 .bmpui-ui-recommendation-overlay .bmpui-
     }
 }
 
-.bmpui-ui-volumeslider, .bmpui-ui-fullscreentogglebutton {
+.bmpui-ui-volumeslider, .bmpui-ui-fullscreentogglebutton, .bmpui-container-wrapper {
     display: none !important; 
 }
