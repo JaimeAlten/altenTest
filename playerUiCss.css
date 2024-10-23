@@ -644,7 +644,7 @@
 
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-bufferlevel,
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-bufferlevel {
-    background-color: #fff;
+    background-color: #662600;
     margin: auto 0;
     -webkit-transition: 0.3s linear, 0.3s linear;
     transition: 0.3s linear, 0.3s linear;
@@ -1316,7 +1316,7 @@
 
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-bufferlevel,
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-bufferlevel {
-    background-color: #fff;
+    background-color: #662600;
     margin: auto 0;
     -webkit-transition: 0.3s linear, 0.3s linear;
     transition: 0.3s linear, 0.3s linear;
@@ -3238,11 +3238,11 @@
 }
 
 .bmpui-ui-uicontainer .bmpui-seekbar .bmpui-seekbar-playbackposition-marker {
-    background-color: #662600 !important;
+    background-color: #fff !important;
 }
 
 .bmpui-ui-uicontainer .bmpui-seekbar .bmpui-seekbar-playbackposition-marker {
-    border: #662600 !important;
+    border: #fff !important;
 }
 
 .bmpui-ui-uicontainer .bmpui-ui-seekbar .bmpui-seekbar-playbackposition-marker {
