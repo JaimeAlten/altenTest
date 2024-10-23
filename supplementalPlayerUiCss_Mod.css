@@ -1688,6 +1688,6 @@ html.tablet .bmpui-layout-max-width-400 .bmpui-ui-recommendation-overlay .bmpui-
     }
 }
 
-.bmpui-ui-volumeslider, .bmpui-ui-fullscreentogglebutton {
+.bmpui-ui-volumeslider, .bmpui-ui-fullscreentogglebutton, .bmpui-container-wrapper {
     display: none !important; 
 }
