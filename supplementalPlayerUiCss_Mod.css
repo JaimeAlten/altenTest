@@ -112,12 +112,15 @@
 }
 
 .bmpui-ui-controlbar .bmpui-controlbar-bottom .bmpui-container-wrapper>button {
-    opacity: .8
+    opacity: .8;
+    display: none;
+
 }
 
 .bmpui-ui-controlbar .bmpui-controlbar-bottom .bmpui-container-wrapper>button:hover {
     filter: none;
-    opacity: 1
+    opacity: 1;
+    display: none;
 }
 
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-bufferlevel,
@@ -183,7 +186,7 @@ html.tablet .bmpui-ui-popupbutton {
 }
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner>.bmpui-container-wrapper .bmpui-seekbar-label-metadata {
-    background-color: #662600;
+    background-color: #ccc;
     color: #333;
     background-image: none;
     padding: 5px 8px;
@@ -1425,11 +1428,14 @@ html.tablet .bmpui-layout-max-width-400 .bmpui-ui-recommendation-overlay .bmpui-
 
 .M-rmp.C-audio .bmpui-controlbar-bottom {
     order: 1;
+    display: none;
     margin-bottom: 10px
 }
 
 .M-rmp.C-audio .bmpui-controlbar-bottom .bmpui-container-wrapper {
-    margin: 0
+    margin: 0;
+    display: none;
+
 }
 
 .M-rmp.C-audio .bmpui-controlbar-top {
