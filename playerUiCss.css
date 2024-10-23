@@ -689,7 +689,7 @@
 
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-markers>.bmpui-seekbar-marker,
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-markers>.bmpui-seekbar-marker {
-    background-color: #fff;
+    background-color: #662600;
     height: 100%;
     text-align: center;
     -webkit-transition-duration: 1s;
@@ -1361,7 +1361,7 @@
 
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-markers>.bmpui-seekbar-marker,
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-markers>.bmpui-seekbar-marker {
-    background-color: #fff;
+    background-color: #662600;
     height: 100%;
     text-align: center;
     -webkit-transition-duration: 1s;
@@ -3238,11 +3238,11 @@
 }
 
 .bmpui-ui-uicontainer .bmpui-seekbar .bmpui-seekbar-playbackposition-marker {
-    background-color: #fff !important;
+    background-color: #662600 !important;
 }
 
 .bmpui-ui-uicontainer .bmpui-seekbar .bmpui-seekbar-playbackposition-marker {
-    border: #fff !important;
+    border: #662600 !important;
 }
 
 .bmpui-ui-uicontainer .bmpui-ui-seekbar .bmpui-seekbar-playbackposition-marker {
