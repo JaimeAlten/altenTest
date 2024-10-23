@@ -123,7 +123,8 @@
 
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-bufferlevel,
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-bufferlevel {
-    background-color: #622600
+    background-color: #622600;
+    display: none;
 }
 
 html.mobile .bmpui-ui-volumeslider,
@@ -974,7 +975,8 @@ html.tablet .bmpui-ui-popupbutton {
 .bmpui-layout-max-width-800 .bmpui-ui-controlbar .bmpui-controlbar-bottom>.bmpui-container-wrapper .bmpui-ui-volumeslider,
 .bmpui-layout-max-width-1200 .bmpui-ui-controlbar .bmpui-controlbar-bottom>.bmpui-container-wrapper .bmpui-ui-volumeslider {
     width: 5em;
-    min-width: 50px
+    min-width: 50px;
+    display: none;
 }
 
 .bmpui-layout-max-width-1200.bmpui-ui-uicontainer .bmpui-ui-subtitle-overlay .bmpui-ui-subtitle-label {
