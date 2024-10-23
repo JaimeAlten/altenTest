@@ -1337,7 +1337,6 @@ html.tablet .bmpui-layout-max-width-400 .bmpui-ui-recommendation-overlay .bmpui-
     background: transparent;
     position: absolute;
     top: 0;
-    overflow: visible
 }
 
 .M-rmp.C-audio .bmpui-ui-recommendation-overlay {
@@ -1690,6 +1689,8 @@ html.tablet .bmpui-layout-max-width-400 .bmpui-ui-recommendation-overlay .bmpui-
 
 .bmpui-ui-volumeslider,
 .bmpui-ui-fullscreentogglebutton,
-.bmpui-ui-volumetogglebutton {
+.bmpui-ui-volumetogglebutton, 
+.bmpui-ui-playbacktimelabel, 
+.bmpui-ui-playbacktimelabel-live {
     display: none !important;
 }
