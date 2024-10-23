@@ -271,7 +271,7 @@
 .bmpui-ui-fullscreentogglebutton .bmpui-label,
 .bmpui-ui-playbacktogglebutton .bmpui-label,
 .bmpui-ui-button .bmpui-label {
-    color: #fff;
+    color: #662600;
     display: none;
 }
 
@@ -467,8 +467,8 @@
 }
 
 .bmpui-ui-playbacktogglebutton:hover {
-    -webkit-filter: drop-shadow(0 0 1px #fff);
-    filter: drop-shadow(0 0 1px #fff);
+    -webkit-filter: drop-shadow(0 0 1px #662600);
+    filter: drop-shadow(0 0 1px #662600);
     display: none;
 }
 
@@ -496,8 +496,8 @@
 }
 
 .bmpui-ui-fullscreentogglebutton:hover {
-    -webkit-filter: drop-shadow(0 0 1px #fff);
-    filter: drop-shadow(0 0 1px #fff);
+    -webkit-filter: drop-shadow(0 0 1px #662600);
+    filter: drop-shadow(0 0 1px #662600);
     display: none;
 }
 
@@ -521,8 +521,8 @@
 }
 
 .bmpui-ui-vrtogglebutton:hover {
-    -webkit-filter: drop-shadow(0 0 1px #fff);
-    filter: drop-shadow(0 0 1px #fff);
+    -webkit-filter: drop-shadow(0 0 1px #662600);
+    filter: drop-shadow(0 0 1px #662600);
     display: none;
 }
 
@@ -542,8 +542,8 @@
  * );
  */
 .bmpui-ui-volumetogglebutton:hover {
-    -webkit-filter: drop-shadow(0 0 1px #fff);
-    filter: drop-shadow(0 0 1px #fff);
+    -webkit-filter: drop-shadow(0 0 1px #662600);
+    filter: drop-shadow(0 0 1px #662600);
     display: none;
 }
 
@@ -1014,8 +1014,8 @@
 }
 
 .bmpui-ui-settingspanelpageopenbutton:hover {
-    -webkit-filter: drop-shadow(0 0 1px #fff);
-    filter: drop-shadow(0 0 1px #fff);
+    -webkit-filter: drop-shadow(0 0 1px #662600);
+    filter: drop-shadow(0 0 1px #662600);
     display: none;
 }
 
@@ -1034,8 +1034,8 @@
 }
 
 .bmpui-ui-settingspanelpagebackbutton .bmpui-label::before {
-    border-bottom: 0.2em solid #fff;
-    border-left: 0.2em solid #fff;
+    border-bottom: 0.2em solid #662600;
+    border-left: 0.2em solid #662600;
     content: "";
     height: 0.6em;
     margin-left: -0.8em;
@@ -1061,8 +1061,8 @@
 .bmpui-ui-audiotracksettingstogglebutton:hover,
 .bmpui-ui-subtitlesettingstogglebutton:hover,
 .bmpui-ui-settingstogglebutton:hover {
-    -webkit-filter: drop-shadow(0 0 1px #fff);
-    filter: drop-shadow(0 0 1px #fff);
+    -webkit-filter: drop-shadow(0 0 1px #662600);
+    filter: drop-shadow(0 0 1px #662600);
     display: none;
 }
 
@@ -1507,7 +1507,7 @@
 
 .bmpui-ui-uicontainer .bmpui-ui-subtitle-overlay .bmpui-ui-subtitle-label {
     text-shadow: -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000, -1px 0 0 #000, 1px 0 0 #000, -1px 1px 0 #000, 0 1px 0 #000, 1px 1px 0 #000;
-    color: #fff;
+    color: #662600;
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
@@ -1621,8 +1621,8 @@
 }
 
 .bmpui-ui-casttogglebutton:hover {
-    -webkit-filter: drop-shadow(0 0 1px #fff);
-    filter: drop-shadow(0 0 1px #fff);
+    -webkit-filter: drop-shadow(0 0 1px #662600);
+    filter: drop-shadow(0 0 1px #662600);
     display: none;
 }
 
@@ -1664,7 +1664,7 @@
 }
 
 .bmpui-ui-cast-status-overlay .bmpui-ui-cast-status-label {
-    color: #fff;
+    color: #662600;
     font-size: 1.2em;
     left: 0;
     margin: 0 2em;
@@ -1706,7 +1706,7 @@
 }
 
 .bmpui-ui-errormessage-overlay .bmpui-ui-errormessage-label {
-    color: #fff;
+    color: #662600;
     font-size: 1.2em;
     left: 3em;
     position: absolute;
@@ -1848,12 +1848,12 @@
 }
 
 .bmpui-ui-recommendation-overlay a {
-    color: #fff;
+    color: #662600;
 }
 
 .bmpui-ui-recommendation-overlay a:hover,
 .bmpui-ui-recommendation-overlay a:visited {
-    color: #fff;
+    color: #662600;
 }
 
 .bmpui-ui-recommendation-overlay.bmpui-recommendations .bmpui-ui-hugereplaybutton {
@@ -2026,8 +2026,8 @@
 }
 
 .bmpui-ui-replaybutton:hover {
-    -webkit-filter: drop-shadow(0 0 1px #fff);
-    filter: drop-shadow(0 0 1px #fff);
+    -webkit-filter: drop-shadow(0 0 1px #662600);
+    filter: drop-shadow(0 0 1px #662600);
 }
 
 .bmpui-ui-playbacktimelabel {
@@ -2268,8 +2268,8 @@
 }
 
 .bmpui-ui-closebutton:hover {
-    -webkit-filter: drop-shadow(0 0 1px #fff);
-    filter: drop-shadow(0 0 1px #fff);
+    -webkit-filter: drop-shadow(0 0 1px #662600);
+    filter: drop-shadow(0 0 1px #662600);
     -webkit-animation: bmpui-pulsate 1s;
     animation: bmpui-pulsate 1s;
     display: none;
@@ -2291,8 +2291,8 @@
 }
 
 .bmpui-ui-airplaytogglebutton:hover {
-    -webkit-filter: drop-shadow(0 0 1px #fff);
-    filter: drop-shadow(0 0 1px #fff);
+    -webkit-filter: drop-shadow(0 0 1px #662600);
+    filter: drop-shadow(0 0 1px #662600);
     display: none;
 }
 
@@ -2316,8 +2316,8 @@
 }
 
 .bmpui-ui-piptogglebutton:hover {
-    -webkit-filter: drop-shadow(0 0 1px #fff);
-    filter: drop-shadow(0 0 1px #fff);
+    -webkit-filter: drop-shadow(0 0 1px #662600);
+    filter: drop-shadow(0 0 1px #662600);
     display: none;
 }
 
@@ -3201,7 +3201,7 @@
 }
 
 .bmpui-ui-uicontainer {
-    color: #fff;
+    color: #662600;
     font-family: sans-serif;
     font-size: 1em;
     text-align: left;
