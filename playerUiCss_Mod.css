@@ -188,7 +188,6 @@
 .bmpui-ui-controlbar .bmpui-controlbar-bottom>.bmpui-container-wrapper .bmpui-ui-volumeslider {
     margin: auto 0.5em;
     width: 5em;
-    display: none;
 }
 
 .bmpui-no-flexbox .bmpui-ui-controlbar .bmpui-controlbar-top>.bmpui-container-wrapper,
@@ -211,7 +210,6 @@
 .bmpui-no-flexbox .bmpui-ui-controlbar .bmpui-controlbar-top>.bmpui-container-wrapper .bmpui-ui-volumeslider,
 .bmpui-no-flexbox .bmpui-ui-controlbar .bmpui-controlbar-bottom>.bmpui-container-wrapper .bmpui-ui-volumeslider {
     width: 10%;
-    display: none;
 }
 
 .bmpui-ui-skin-ads .bmpui-ui-ads-status .bmpui-ui-button-ad-skip,
@@ -587,7 +585,6 @@
     height: 1em;
     position: relative;
     width: 100%;
-    display: none;
 }
 
 .bmpui-hidden.bmpui-ui-volumeslider,
@@ -1188,7 +1185,7 @@
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner::after {
     border: solid transparent;
     border-color: transparent;
-    border-top-color: #662600;
+    border-top-color: #fff;
     border-width: 0.5em;
     content: " ";
     height: 0;
@@ -2090,7 +2087,7 @@
 }
 
 .bmpui-ui-buffering-overlay a {
-    color: #622600;
+    color: #fff;
 }
 
 .bmpui-ui-buffering-overlay a:hover,
