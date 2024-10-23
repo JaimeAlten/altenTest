@@ -171,7 +171,6 @@
     display: -ms-flexbox;
     display: flex;
     margin: 0.5em 0;
-    display: none;
 }
 
 .bmpui-ui-controlbar .bmpui-controlbar-top .bmpui-ui-label {
@@ -184,27 +183,23 @@
 
 .bmpui-ui-controlbar .bmpui-controlbar-bottom {
     white-space: nowrap;
-    display: none;
 }
 
 .bmpui-ui-controlbar .bmpui-controlbar-bottom>.bmpui-container-wrapper .bmpui-ui-volumeslider {
     margin: auto 0.5em;
     width: 5em;
-    display: none;
 }
 
 .bmpui-no-flexbox .bmpui-ui-controlbar .bmpui-controlbar-top>.bmpui-container-wrapper,
 .bmpui-no-flexbox .bmpui-ui-controlbar .bmpui-controlbar-bottom>.bmpui-container-wrapper {
     border-spacing: 0.5em 0;
     display: table;
-    display: none;
 }
 
 .bmpui-no-flexbox .bmpui-ui-controlbar .bmpui-controlbar-top>.bmpui-container-wrapper>*,
 .bmpui-no-flexbox .bmpui-ui-controlbar .bmpui-controlbar-bottom>.bmpui-container-wrapper>* {
     display: table-cell;
     vertical-align: middle;
-    display: none;
 }
 
 .bmpui-no-flexbox .bmpui-ui-controlbar .bmpui-controlbar-top>.bmpui-container-wrapper>*.bmpui-hidden,
@@ -215,7 +210,6 @@
 .bmpui-no-flexbox .bmpui-ui-controlbar .bmpui-controlbar-top>.bmpui-container-wrapper .bmpui-ui-volumeslider,
 .bmpui-no-flexbox .bmpui-ui-controlbar .bmpui-controlbar-bottom>.bmpui-container-wrapper .bmpui-ui-volumeslider {
     width: 10%;
-    display: none;
 }
 
 .bmpui-ui-skin-ads .bmpui-ui-ads-status .bmpui-ui-button-ad-skip,
