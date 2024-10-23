@@ -1687,3 +1687,7 @@ html.tablet .bmpui-layout-max-width-400 .bmpui-ui-recommendation-overlay .bmpui-
         }
     }
 }
+
+.bmpui-ui-controls-overlay {
+    display: none !important; 
+}
