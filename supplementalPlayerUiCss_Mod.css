@@ -114,18 +114,16 @@
 .bmpui-ui-controlbar .bmpui-controlbar-bottom .bmpui-container-wrapper>button {
     opacity: .8;
     display: none;
-
 }
 
 .bmpui-ui-controlbar .bmpui-controlbar-bottom .bmpui-container-wrapper>button:hover {
     filter: none;
-    opacity: 1;
-    display: none;
+    opacity: 1
 }
 
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-bufferlevel,
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-bufferlevel {
-    background-color: #622600
+    background-color: #eee
 }
 
 html.mobile .bmpui-ui-volumeslider,
@@ -186,7 +184,7 @@ html.tablet .bmpui-ui-popupbutton {
 }
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner>.bmpui-container-wrapper .bmpui-seekbar-label-metadata {
-    background-color: #ccc;
+    background-color: #662600;
     color: #333;
     background-image: none;
     padding: 5px 8px;
@@ -296,7 +294,7 @@ html.tablet .bmpui-ui-popupbutton {
     width: 4px;
     height: 4px;
     border-radius: 4px;
-    background-color: #662600;
+    background-color: #fff;
     position: absolute;
     bottom: 4px;
     left: calc(50% - 2px);
@@ -357,7 +355,7 @@ html.tablet .bmpui-ui-popupbutton {
 }
 
 .bmpui-ui-selectbox {
-    color: #662600;
+    color: #fff;
     background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTcuODgxMDUgOS42OTk0QzguMDE4NSA5LjY5OTE0IDguMTUxNjUgOS43NDczNSA4LjI1NzA4IDkuODM1NTRMMTEuOTk4NyAxMi45NDgzTDE1Ljc0MDMgOS44MzU1NEMxNS43OTk2IDkuNzg1NzQgMTUuODY4MiA5Ljc0ODEzIDE1Ljk0MjEgOS43MjQ5MUMxNi4wMTYgOS43MDE2OSAxNi4wOTM3IDkuNjkzMzEgMTYuMTcwOSA5LjcwMDIzQzE2LjI0OCA5LjcwNzE0IDE2LjMyMyA5LjcyOTIzIDE2LjM5MTYgOS43NjUyMkMxNi40NjAyIDkuODAxMjEgMTYuNTIxIDkuODUwNCAxNi41NzA2IDkuOTA5OTZDMTYuNjIwMSA5Ljk2OTUxIDE2LjY1NzQgMTAuMDM4MyAxNi42ODAyIDEwLjExMjNDMTYuNzAzMSAxMC4xODYzIDE2LjcxMTIgMTAuMjY0MSAxNi43MDM5IDEwLjM0MTJDMTYuNjk2NiAxMC40MTgzIDE2LjY3NDIgMTAuNDkzMiAxNi42Mzc5IDEwLjU2MTdDMTYuNjAxNiAxMC42MzAxIDE2LjU1MjEgMTAuNjkwNyAxNi40OTIzIDEwLjczOTlMMTIuMzc2NCAxNC4xNjU2QzEyLjI3MDcgMTQuMjUzNiAxMi4xMzc2IDE0LjMwMTcgMTIuMDAwMSAxNC4zMDE3QzExLjg2MjcgMTQuMzAxNyAxMS43Mjk1IDE0LjI1MzYgMTEuNjIzOSAxNC4xNjU2TDcuNTA2MjcgMTAuNzM5OUM3LjQxMzIgMTAuNjYyNiA3LjM0NjIzIDEwLjU1ODUgNy4zMTQ1MSAxMC40NDE3QzcuMjgyNzkgMTAuMzI0OSA3LjI4Nzg2IDEwLjIwMTIgNy4zMjkwMiAxMC4wODc0QzcuMzcwMTkgOS45NzM2NCA3LjQ0NTQ1IDkuODc1MzMgNy41NDQ1MyA5LjgwNTg5QzcuNjQzNjIgOS43MzY0NSA3Ljc2MTcxIDkuNjk5MjYgNy44ODI3MSA5LjY5OTRINy44ODEwNVoiIGZpbGw9IiNmZmYiLz4KPC9zdmc+Cg==) right no-repeat;
     border: 1px solid rgba(153, 153, 153, .3);
     margin-bottom: 0;
@@ -480,7 +478,7 @@ html.tablet .bmpui-ui-popupbutton {
 .bmpui-ui-ads-status .bmpui-ui-label-ad-message {
     background: rgba(0, 0, 0, .4);
     padding: 5px;
-    color: #662600;
+    color: #fff;
     font-size: 14px
 }
 
@@ -558,7 +556,7 @@ html.tablet .bmpui-ui-popupbutton {
 }
 
 .bmpui-ui-up-next-item .bmpui-up-next-thumbnail:hover .bmpui-label {
-    color: #662600
+    color: #fff
 }
 
 .bmpui-ui-up-next-item .bmpui-up-next-close {
@@ -640,7 +638,7 @@ html.tablet .bmpui-ui-popupbutton {
 }
 
 .bmpui-ui-recommendation-overlay.bmpui-recommendations .bmpui-container-wrapper .bmpui-ui-recommendation-item:hover {
-    outline: 1px solid #662600
+    outline: 1px solid #fff
 }
 
 .bmpui-ui-recommendation-overlay.bmpui-recommendations .bmpui-container-wrapper .bmpui-ui-recommendation-item .bmpui-title {
@@ -1428,14 +1426,11 @@ html.tablet .bmpui-layout-max-width-400 .bmpui-ui-recommendation-overlay .bmpui-
 
 .M-rmp.C-audio .bmpui-controlbar-bottom {
     order: 1;
-    display: none;
     margin-bottom: 10px
 }
 
 .M-rmp.C-audio .bmpui-controlbar-bottom .bmpui-container-wrapper {
-    margin: 0;
-    display: none;
-
+    margin: 0
 }
 
 .M-rmp.C-audio .bmpui-controlbar-top {
