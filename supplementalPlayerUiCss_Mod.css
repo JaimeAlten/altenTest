@@ -123,7 +123,7 @@
 
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-bufferlevel,
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-bufferlevel {
-    background-color: #622600
+    background-color: #be2649
 }
 
 html.mobile .bmpui-ui-volumeslider,
@@ -176,7 +176,7 @@ html.tablet .bmpui-ui-popupbutton {
 }
 
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition {
-    background-color: #662600 !important
+    background-color: #be2649 !important
 }
 
 .bmpui-ui-uicontainer .bmpui-seekbar .bmpui-seekbar-playbackposition-marker {
@@ -184,7 +184,7 @@ html.tablet .bmpui-ui-popupbutton {
 }
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner>.bmpui-container-wrapper .bmpui-seekbar-label-metadata {
-    background-color: #662600;
+    background-color: #be2649;
     color: #333;
     background-image: none;
     padding: 5px 8px;
@@ -1689,9 +1689,9 @@ html.tablet .bmpui-layout-max-width-400 .bmpui-ui-recommendation-overlay .bmpui-
 
 .bmpui-ui-volumeslider,
 .bmpui-ui-fullscreentogglebutton,
-.bmpui-ui-volumetogglebutton, 
+/* .bmpui-ui-volumetogglebutton, 
 .bmpui-ui-playbacktimelabel, 
-.bmpui-ui-playbacktimelabel-live, 
+.bmpui-ui-playbacktimelabel-live,  */
 .bmpui-ui-seekbar-label {
     display: none !important;
 }
