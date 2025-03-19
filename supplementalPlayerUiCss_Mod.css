@@ -1693,7 +1693,7 @@ html.tablet .bmpui-layout-max-width-400 .bmpui-ui-recommendation-overlay .bmpui-
 .bmpui-ui-playbacktimelabel,
 .bmpui-ui-playbacktimelabel-live,
 .bmpui-ui-airplaytogglebutton,
-.bmpui-hidden.bmpui-ui-casttogglebutton,
+.bmpui-ui-casttogglebutton,
 .bmpui-ui-seekbar-label {
     display: none !important;
 }
