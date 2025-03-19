@@ -3337,61 +3337,15 @@
 .bmpui-ui-airplaytogglebutton:focus:not(.bmpui-focus-visible),
 .bmpui-disabled.bmpui-ui-airplaytogglebutton,
 .bmpui-disabled.bmpui-ui-airplaytogglebutton>*,
-.bmpui-ui-airplaytogglebutton .bmpui-label {
-    display: none;
+.bmpui-ui-airplaytogglebutton .bmpui-label,
+.bmpui-ui-casttogglebutton .bmpui-label,
+.bmpui-disabled.bmpui-ui-casttogglebutton,
+.bmpui-disabled.bmpui-ui-casttogglebutton>*,
+.bmpui-hidden.bmpui-ui-casttogglebutton,
+.bmpui-ui-casttogglebutton:focus:not(.bmpui-focus-visible),
+.bmpui-ui-casttogglebutton:focus,
+.bmpui-disabled.bmpui-ui-casttogglebutton .bmpui-label:hover,
+.bmpui-ui-casttogglebutton {
+    display: none !important;
 }
 
-
-.bmpui-ui-spacer,
-.bmpui-ui-up-next-item,
-.bmpui-ui-selectbox,
-.bmpui-ui-skin-ads .bmpui-ui-ads-status .bmpui-ui-label-ad-message,
-.bmpui-ui-playbacktimelabel,
-.bmpui-ui-label,
-.bmpui-ui-volumeslider,
-.bmpui-ui-seekbar,
-.bmpui-ui-skin-ads .bmpui-ui-ads-status .bmpui-ui-button-ad-skip,
-.bmpui-ui-subtitlesettingsresetbutton,
-.bmpui-ui-piptogglebutton,
-.bmpui-ui-airplaytogglebutton,
-.bmpui-ui-closebutton,
-.bmpui-ui-replaybutton,
-.bmpui-ui-hugereplaybutton,
-.bmpui-ui-clickoverlay,
-.bmpui-ui-watermark,
-.bmpui-ui-casttogglebutton,
-.bmpui-ui-listbox .bmpui-ui-listbox-button,
-.bmpui-ui-audiotracksettingstogglebutton,
-.bmpui-ui-subtitlesettingstogglebutton,
-.bmpui-ui-settingstogglebutton,
-.bmpui-ui-settingspanelpagebackbutton,
-.bmpui-ui-settingspanelpageopenbutton,
-.bmpui-ui-hugeplaybacktogglebutton,
-.bmpui-ui-volumetogglebutton,
-.bmpui-ui-vrtogglebutton,
-.bmpui-ui-fullscreentogglebutton,
-.bmpui-ui-playbacktogglebutton,
-.bmpui-ui-button,
-.bmpui-ui-playbacktoggle-overlay,
-.bmpui-ui-buffering-overlay,
-.bmpui-ui-recommendation-overlay,
-.bmpui-ui-titlebar,
-.bmpui-ui-errormessage-overlay,
-.bmpui-ui-cast-status-overlay,
-.bmpui-ui-volumecontrolbutton,
-.bmpui-ui-uicontainer .bmpui-ui-subtitle-overlay,
-.bmpui-ui-seekbar-label,
-.bmpui-ui-listbox,
-.bmpui-ui-settings-panel,
-.bmpui-ui-controlbar,
-.bmpui-ui-uicontainer,
-.bmpui-ui-container,
-.bmpui-ui-component {
-    /*! placeholder to avoid removal of empty selector */
-    outline: 0;
-    display: 'none'
-}
-
-* {
-    display: none;
-}
