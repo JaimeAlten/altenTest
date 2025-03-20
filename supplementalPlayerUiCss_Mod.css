@@ -1608,7 +1608,7 @@ html.tablet .bmpui-layout-max-width-400 .bmpui-ui-recommendation-overlay .bmpui-
         bottom: 0;
         left: 0;
         /* background: linear-gradient(179.49deg, rgba(0, 0, 0, 0) 65.25%, rgba(8, 8, 8, 0) 82.59%, #111111 94.13%), radial-gradient(289.16% 913.88% at 203.01% 50%, #111111 0%, rgba(17, 17, 17, 0) 53.47%, #111111 100%) */
-        background: linear-gradient(179.49deg, rgba(0, 0, 0, 0) 65.25%, rgba(8, 8, 8, 0) 82.59%, #111111 94.13%), radial-gradient(289.16% 913.88% at 203.01% 50%,  rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0) 53.47%,  rgba(17, 17, 17, 0) 100%)
+        background: linear-gradient(179.49deg, rgba(0, 0, 0, 0) 65.25%, rgba(8, 8, 8, 0) 82.59%, #111111 94.13%), radial-gradient(289.16% 913.88% at 203.01% 50%, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0) 53.47%, rgba(17, 17, 17, 0) 100%)
     }
 
     .M-rmp.C-audio .bmpui-ui-controlbar {
@@ -1707,11 +1707,9 @@ html.tablet .bmpui-layout-max-width-400 .bmpui-ui-recommendation-overlay .bmpui-
 .bmpui-ui-volumetogglebutton,
 .bmpui-ui-playbacktimelabel,
 .bmpui-ui-playbacktimelabel-live,
-.bmpui-ui-airplaytogglebutton,
-.bmpui-ui-casttogglebutton,
 .bmpui-ui-seekbar-label {
     display: none !important;
-}   
+}
 
 .bmpui-ui-airplaytogglebutton,
 .bmpui-ui-airplaytogglebutton:hover,
@@ -1730,4 +1728,3 @@ html.tablet .bmpui-layout-max-width-400 .bmpui-ui-recommendation-overlay .bmpui-
 .bmpui-ui-casttogglebutton {
     display: none !important;
 }
-
