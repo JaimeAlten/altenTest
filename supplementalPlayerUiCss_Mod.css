@@ -1712,3 +1712,22 @@ html.tablet .bmpui-layout-max-width-400 .bmpui-ui-recommendation-overlay .bmpui-
 .bmpui-ui-seekbar-label {
     display: none !important;
 }   
+
+.bmpui-ui-airplaytogglebutton,
+.bmpui-ui-airplaytogglebutton:hover,
+.bmpui-ui-airplaytogglebutton.bmpui-on,
+.bmpui-ui-airplaytogglebutton:focus:not(.bmpui-focus-visible),
+.bmpui-disabled.bmpui-ui-airplaytogglebutton,
+.bmpui-disabled.bmpui-ui-airplaytogglebutton>*,
+.bmpui-ui-airplaytogglebutton .bmpui-label,
+.bmpui-ui-casttogglebutton .bmpui-label,
+.bmpui-disabled.bmpui-ui-casttogglebutton,
+.bmpui-disabled.bmpui-ui-casttogglebutton>*,
+.bmpui-hidden.bmpui-ui-casttogglebutton,
+.bmpui-ui-casttogglebutton:focus:not(.bmpui-focus-visible),
+.bmpui-ui-casttogglebutton:focus,
+.bmpui-disabled.bmpui-ui-casttogglebutton .bmpui-label:hover,
+.bmpui-ui-casttogglebutton {
+    display: none !important;
+}
+

@@ -58,10 +58,7 @@
 .bmpui-ui-component {
     /*! placeholder to avoid removal of empty selector */
     outline: 0;
-    display: 'none'
 }
-
-
 
 .bmpui-ui-playbacktoggle-overlay,
 .bmpui-ui-buffering-overlay,
@@ -154,8 +151,8 @@
     bottom: 0;
     position: absolute;
     width: 100%;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0)));
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.7)));
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     line-height: 1em;
@@ -303,8 +300,6 @@
     cursor: default;
 }
 
-
-
 .bmpui-ui-skin-ads .bmpui-ui-ads-status .bmpui-disabled.bmpui-ui-button-ad-skip,
 .bmpui-disabled.bmpui-ui-subtitlesettingsresetbutton,
 .bmpui-disabled.bmpui-ui-piptogglebutton,
@@ -352,7 +347,6 @@
     pointer-events: none;
 }
 
-
 .bmpui-ui-skin-ads .bmpui-ui-ads-status .bmpui-disabled.bmpui-ui-button-ad-skip .bmpui-label:hover,
 .bmpui-disabled.bmpui-ui-subtitlesettingsresetbutton .bmpui-label:hover,
 .bmpui-disabled.bmpui-ui-piptogglebutton .bmpui-label:hover,
@@ -378,10 +372,6 @@
     text-decoration: none;
 }
 
-.bmpui-disabled.bmpui-ui-airplaytogglebutton .bmpui-label:hover {
-    display: none
-}
-
 .bmpui-ui-skin-ads .bmpui-ui-ads-status .bmpui-hidden.bmpui-ui-button-ad-skip,
 .bmpui-hidden.bmpui-ui-subtitlesettingsresetbutton,
 .bmpui-hidden.bmpui-ui-piptogglebutton,
@@ -405,10 +395,6 @@
 .bmpui-hidden.bmpui-ui-playbacktogglebutton,
 .bmpui-hidden.bmpui-ui-button {
     display: none;
-}
-
-.bmpui-hidden.bmpui-ui-airplaytogglebutton {
-    display: none
 }
 
 .bmpui-ui-skin-ads .bmpui-ui-ads-status .bmpui-ui-button-ad-skip:focus,
@@ -437,11 +423,6 @@
     box-shadow: 0 0 0 2px rgba(27, 127, 204, 0.8);
     outline: none;
 }
-
-.bmpui-ui-airplaytogglebutton:focus {
-    display: none;
-}
-
 
 .bmpui-ui-skin-ads .bmpui-ui-ads-status .bmpui-ui-button-ad-skip:focus:not(.bmpui-focus-visible),
 .bmpui-ui-subtitlesettingsresetbutton:focus:not(.bmpui-focus-visible),
@@ -656,7 +637,7 @@
 
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-backdrop,
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-backdrop {
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0.2);
     margin: auto 0;
     width: 100%;
 }
@@ -675,7 +656,7 @@
 
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-seekposition,
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-seekposition {
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0.2);
     margin: auto 0;
 }
 
@@ -1225,8 +1206,8 @@
 }
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner>.bmpui-container-wrapper .bmpui-seekbar-label-metadata {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0)));
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.7)));
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
     bottom: 0;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -1328,7 +1309,7 @@
 
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-backdrop,
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-backdrop {
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0.2);
     margin: auto 0;
     width: 100%;
 }
@@ -1347,7 +1328,7 @@
 
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-seekposition,
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-seekposition {
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0.2);
     margin: auto 0;
 }
 
@@ -1776,8 +1757,8 @@
     position: absolute;
     top: 0;
     width: 100%;
-    background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0)));
-    background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.7)));
+    background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     padding: 0.5em 1em 1em;
@@ -1894,8 +1875,8 @@
 }
 
 .bmpui-ui-recommendation-overlay.bmpui-recommendations .bmpui-ui-recommendation-item .bmpui-background {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0)));
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.7)));
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
     height: 100%;
     position: absolute;
     top: 20%;
@@ -2091,7 +2072,7 @@
     -webkit-transition: opacity 0.6s, visibility 0s;
     transition: opacity 0.6s, visibility 0s;
     visibility: visible;
-    background-color: rgba(8, 43, 57, 0);
+    background-color: rgba(8, 43, 57, 0.7);
 }
 
 .bmpui-ui-buffering-overlay.bmpui-hidden {
@@ -2298,18 +2279,15 @@
  */
 .bmpui-ui-airplaytogglebutton {
     background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 32 32' style='enable-background:new 0 0 32 32%3B' xml:space='preserve'%3E%3Cstyle type='text/css'%3E.st0%7Bfill:%23FFFFFF%3B%7D%3C/style%3E%3Cg id='Rectangle_8'%3E%3Cg%3E%3Cpath class='st0' d='M27.1%2C5.3H4.9c-1.3%2C0-2.4%2C1.1-2.4%2C2.4v11.9c0%2C1.3%2C1.1%2C2.4%2C2.4%2C2.4h3.6v-2.4H4.9V7.7h22.1v11.9h-3.6v2.4h3.6 c1.3%2C0%2C2.4-1.1%2C2.4-2.4V7.7C29.4%2C6.4%2C28.4%2C5.3%2C27.1%2C5.3z'/%3E%3C/g%3E%3C/g%3E%3Cg id='Shape_5'%3E%3Cg%3E%3Cpath class='st0' d='M22.9%2C24.8L17%2C16.5c-0.2-0.2-0.6-0.5-1-0.5c-0.4%2C0-0.7%2C0.2-1%2C0.5l-5.9%2C8.3C8.9%2C25.2%2C8.9%2C25.6%2C9%2C26 c0.2%2C0.4%2C0.6%2C0.6%2C1.1%2C0.6h11.9c0.5%2C0%2C0.8-0.2%2C1.1-0.6c0.1-0.1%2C0.1-0.2%2C0.1-0.5C23.1%2C25.3%2C23%2C25%2C22.9%2C24.8z M12.3%2C24.3l3.7-5.1 l3.7%2C5.1H12.3z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-    display: none;
 }
 
 .bmpui-ui-airplaytogglebutton:hover {
     -webkit-filter: drop-shadow(0 0 1px #fff);
     filter: drop-shadow(0 0 1px #fff);
-    display: none;
 }
 
 .bmpui-ui-airplaytogglebutton.bmpui-on {
     background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 32 32' style='enable-background:new 0 0 32 32%3B' xml:space='preserve'%3E%3Cstyle type='text/css'%3E.st0%7Bopacity:0.302%3B%7D .st1%7Bfill:%231FABE2%3B%7D%3C/style%3E%3Cg id='Rectangle_17' class='st0'%3E%3Cg%3E%3Crect x='4.9' y='7.7' class='st1' width='22.1' height='11.9'/%3E%3C/g%3E%3C/g%3E%3Cg id='Rectangle_18' class='st0'%3E%3Cg%3E%3Cpolygon class='st1' points='18.4%2C19.6 13.6%2C19.6 11.2%2C24.3 20.8%2C24.3 '/%3E%3C/g%3E%3C/g%3E%3Cg id='Shape_5_1_'%3E%3Cg%3E%3Cpath class='st1' d='M27.1%2C5.3H4.9c-1.3%2C0-2.4%2C1.1-2.4%2C2.4v11.9c0%2C1.3%2C1.1%2C2.4%2C2.4%2C2.4h3.6v-2.4H4.9V7.7h22.1v11.9h-3.6v2.4h3.6 c1.3%2C0%2C2.4-1.1%2C2.4-2.4V7.7C29.4%2C6.4%2C28.4%2C5.3%2C27.1%2C5.3z M17%2C16.5c-0.2-0.2-0.6-0.5-1-0.5c-0.4%2C0-0.7%2C0.2-1%2C0.5l-5.9%2C8.3 C8.9%2C25.2%2C8.9%2C25.6%2C9%2C26c0.2%2C0.4%2C0.6%2C0.6%2C1.1%2C0.6h11.9c0.5%2C0%2C0.8-0.2%2C1.1-0.6c0.1-0.1%2C0.1-0.2%2C0.1-0.5c0-0.2-0.1-0.5-0.2-0.7 L17%2C16.5z M12.3%2C24.3l3.7-5.1l3.7%2C5.1H12.3z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-    display: none;
 }
 
 /*
@@ -2782,15 +2760,15 @@
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-characteredge-depressed .bmpui-ui-subtitle-label {
-    text-shadow: rgba(0, 0, 0, 0) 0px -2px 1px;
+    text-shadow: rgba(0, 0, 0, 0.8) 0px -2px 1px;
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-characteredge-uniform .bmpui-ui-subtitle-label {
-    text-shadow: -2px 0px 1px rgba(0, 0, 0, 0), 2px 0px 1px rgba(0, 0, 0, 0), 0px -2px 1px rgba(0, 0, 0, 0), 0px 2px 1px rgba(0, 0, 0, 0), -1px 1px 1px rgba(0, 0, 0, 0), 1px 1px 1px rgba(0, 0, 0, 0), 1px -1px 1px rgba(0, 0, 0, 0), 1px 1px 1px rgba(0, 0, 0, 0);
+    text-shadow: -2px 0px 1px rgba(0, 0, 0, 0.8), 2px 0px 1px rgba(0, 0, 0, 0.8), 0px -2px 1px rgba(0, 0, 0, 0.8), 0px 2px 1px rgba(0, 0, 0, 0.8), -1px 1px 1px rgba(0, 0, 0, 0.8), 1px 1px 1px rgba(0, 0, 0, 0.8), 1px -1px 1px rgba(0, 0, 0, 0.8), 1px 1px 1px rgba(0, 0, 0, 0.8);
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-characteredge-dropshadowed .bmpui-ui-subtitle-label {
-    text-shadow: 0px 2px 1px rgba(0, 0, 0, 0);
+    text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.8);
 }
 
 .bmpui-ui-subtitle-overlay.bmpui-fontfamily-monospacedserif .bmpui-ui-subtitle-label {
@@ -2847,7 +2825,7 @@
 }
 
 .bmpui-ui-skin-ads .bmpui-ui-ads-status {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.7);
     left: 1.5em;
     padding: 0.5em 1.5em;
     position: absolute;
@@ -2888,7 +2866,7 @@
 
 .bmpui-ui-skin-cast-receiver.bmpui-ui-uicontainer .bmpui-ui-titlebar,
 .bmpui-ui-skin-cast-receiver.bmpui-ui-uicontainer .bmpui-ui-controlbar {
-    background: rgba(17, 17, 17, 0);
+    background: rgba(17, 17, 17, 0.85);
     padding: 0.3em 0.5em;
 }
 
@@ -2921,7 +2899,7 @@
 }
 
 .bmpui-ui-skin-cast-receiver.bmpui-ui-uicontainer .bmpui-ui-subtitle-overlay .bmpui-ui-subtitle-label {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.5);
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone;
     display: -webkit-inline-box;
@@ -3330,22 +3308,3 @@
     background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M4.65553 18.9999C3.18892 18.9999 2 17.811 2 16.3443L2 8.65541C2 7.1888 3.18892 5.99987 4.65553 5.99987H9.45703C9.76472 5.99987 10.0142 6.24931 10.0142 6.557C10.0142 6.8647 9.76472 7.11413 9.45703 7.11413H4.65553C3.80431 7.11413 3.11426 7.80418 3.11426 8.65541L3.11426 16.3443C3.11426 17.1956 3.80431 17.8856 4.65553 17.8856H15.3586C16.2098 17.8856 16.8999 17.1956 16.8999 16.3444L16.8999 12.5571C16.9 12.2494 17.1494 12 17.4571 12C17.7648 12 18.0142 12.2495 18.0142 12.5572L18.0142 16.3445C18.0141 17.811 16.8252 18.9999 15.3586 18.9999H4.65553ZM13.6697 10.9999C12.2031 10.9999 11.0142 9.81095 11.0142 8.34434V4.65553C11.0142 3.18892 12.2031 2 13.6697 2L19.3445 2C20.8111 2 22 3.18892 22 4.65553V8.34434C22 9.81095 20.8111 10.9999 19.3445 10.9999H13.6697ZM12.1284 8.34434C12.1284 9.19556 12.8185 9.88562 13.6697 9.88562H19.3445C20.1957 9.88562 20.8857 9.19556 20.8857 8.34434V4.65553C20.8857 3.80431 20.1957 3.11426 19.3445 3.11426L13.6697 3.11426C12.8185 3.11426 12.1284 3.80431 12.1284 4.65553V8.34434Z' fill='%23fff'/%3E%3Cpath d='M13.4412 22H6.6183C6.53972 22.0021 6.46153 21.9884 6.38833 21.9598C6.31513 21.9312 6.24841 21.8882 6.1921 21.8333C6.13579 21.7785 6.09103 21.7129 6.06047 21.6405C6.02991 21.5681 6.01416 21.4903 6.01416 21.4117C6.01416 21.3331 6.02991 21.2553 6.06047 21.1829C6.09103 21.1105 6.13579 21.0449 6.1921 20.9901C6.24841 20.9352 6.31513 20.8922 6.38833 20.8636C6.46153 20.835 6.53972 20.8213 6.6183 20.8234L13.4412 20.8234C13.5945 20.8275 13.7402 20.8912 13.8472 21.0011C13.9542 21.111 14.0141 21.2583 14.0141 21.4117C14.0141 21.5651 13.9542 21.7124 13.8472 21.8223C13.7402 21.9322 13.5945 21.9959 13.4412 22Z' fill='%23fff'/%3E%3C/svg%3E");
     background-size: contain;
 }
-
-.bmpui-ui-airplaytogglebutton,
-.bmpui-ui-airplaytogglebutton:hover,
-.bmpui-ui-airplaytogglebutton.bmpui-on,
-.bmpui-ui-airplaytogglebutton:focus:not(.bmpui-focus-visible),
-.bmpui-disabled.bmpui-ui-airplaytogglebutton,
-.bmpui-disabled.bmpui-ui-airplaytogglebutton>*,
-.bmpui-ui-airplaytogglebutton .bmpui-label,
-.bmpui-ui-casttogglebutton .bmpui-label,
-.bmpui-disabled.bmpui-ui-casttogglebutton,
-.bmpui-disabled.bmpui-ui-casttogglebutton>*,
-.bmpui-hidden.bmpui-ui-casttogglebutton,
-.bmpui-ui-casttogglebutton:focus:not(.bmpui-focus-visible),
-.bmpui-ui-casttogglebutton:focus,
-.bmpui-disabled.bmpui-ui-casttogglebutton .bmpui-label:hover,
-.bmpui-ui-casttogglebutton {
-    display: none !important;
-}
-
