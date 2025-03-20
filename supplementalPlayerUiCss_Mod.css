@@ -147,7 +147,8 @@ html.tablet .bmpui-ui-popupbutton {
     top: 8px;
     left: 0;
     right: 0;
-    background-color: rgba(255, 255, 255, .2)
+    /* background-color: rgba(255, 255, 255, .2) */
+    background-color: rgba(0,0,0,0);
 }
 
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-backdrop:before {
@@ -158,7 +159,9 @@ html.tablet .bmpui-ui-popupbutton {
     top: 72px;
     z-index: 3;
     min-width: 225px;
-    background: rgba(0, 0, 0, .85)
+    /* background: rgba(0, 0, 0, .85) */
+    background-color: rgba(0,0,0,0);
+
 }
 
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-bufferlevel,
@@ -394,7 +397,8 @@ html.tablet .bmpui-ui-popupbutton {
     width: auto;
     margin-right: 8px;
     margin-left: 0;
-    background-color: #4d4d4d;
+    /* background-color: #4d4d4d; */
+    background-color: rgba(0,0,0,0);
     text-transform: uppercase;
     font-weight: 700;
     font-size: 12px;
@@ -1061,7 +1065,7 @@ html.tablet .bmpui-ui-popupbutton {
 .bmpui-layout-max-width-800 .bmpui-ui-settings-panel-page::-webkit-scrollbar-thumb,
 .bmpui-layout-max-width-1200 .bmpui-ui-settings-panel-page::-webkit-scrollbar-thumb {
     border-radius: 2px;
-    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
     background-color: #be2649
 }
 
@@ -1406,7 +1410,7 @@ html.tablet .bmpui-layout-max-width-400 .bmpui-ui-recommendation-overlay .bmpui-
 .M-rmp.C-audio .bmpui-player-state-idle .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-bufferlevel,
 .M-rmp.C-audio .bmpui-player-state-prepared .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-bufferlevel,
 .M-rmp.C-audio .bmpui-player-state-prepared .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-bufferlevel {
-    background-color: rgba(255, 255, 255, .2)
+    background-color: rgba(255, 255, 255, 0)
 }
 
 .M-rmp.C-audio .bmpui-ui-controlbar {
@@ -1535,7 +1539,7 @@ html.tablet .bmpui-layout-max-width-400 .bmpui-ui-recommendation-overlay .bmpui-
 }
 
 .M-rmp.C-audio.C-popup .bmpui-ui-uicontainer {
-    background: linear-gradient(179.49deg, rgba(0, 0, 0, 0) 61.25%, rgba(8, 8, 8, 0.6) 69.59%, #111111 81.13%), radial-gradient(289.16% 913.88% at 203.01% 50%, #111111 0%, rgba(17, 17, 17, 0) 53.47%, #111111 100%)
+    background: linear-gradient(179.49deg, rgba(0, 0, 0, 0) 61.25%, rgba(8, 8, 8,0) 69.59%, #111111 81.13%), radial-gradient(289.16% 913.88% at 203.01% 50%, #111111 0%, rgba(17, 17, 17, 0) 53.47%, #111111 100%)
 }
 
 .M-rmp.C-audio.C-popup .bmpui-ui-volumeslider {
@@ -1593,7 +1597,7 @@ html.tablet .bmpui-layout-max-width-400 .bmpui-ui-recommendation-overlay .bmpui-
         right: 0;
         bottom: 0;
         left: 0;
-        background: linear-gradient(179.49deg, rgba(0, 0, 0, 0) 65.25%, rgba(8, 8, 8, 0.6) 82.59%, #111111 94.13%), radial-gradient(289.16% 913.88% at 203.01% 50%, #111111 0%, rgba(17, 17, 17, 0) 53.47%, #111111 100%)
+        background: linear-gradient(179.49deg, rgba(0, 0, 0, 0) 65.25%, rgba(8, 8, 8, 0) 82.59%, #111111 94.13%), radial-gradient(289.16% 913.88% at 203.01% 50%, #111111 0%, rgba(17, 17, 17, 0) 53.47%, #111111 100%)
     }
 
     .M-rmp.C-audio .bmpui-ui-controlbar {
@@ -1696,8 +1700,4 @@ html.tablet .bmpui-layout-max-width-400 .bmpui-ui-recommendation-overlay .bmpui-
 .bmpui-ui-casttogglebutton,
 .bmpui-ui-seekbar-label {
     display: none !important;
-}
-
-* {
-    display: none;
 }
