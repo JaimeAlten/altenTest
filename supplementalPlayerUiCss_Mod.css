@@ -32,7 +32,7 @@
 
 .bmpui-player-state-idle .bmpui-ui-hugeplaybacktogglebutton,
 .bmpui-player-state-prepared .bmpui-ui-hugeplaybacktogglebutton {
-    background: rgba(17, 17, 17, .4)
+    background: rgba(17, 17, 17, 0)
 }
 
 .bmpui-player-state-playing .bmpui-image {
@@ -41,7 +41,7 @@
 }
 
 .bmpui-player-state-paused .bmpui-ui-hugeplaybacktogglebutton {
-    background: rgba(17, 17, 17, .2)
+    background: rgba(17, 17, 17, 0)
 }
 
 .bmpui-player-state-paused .bmpui-image {
@@ -64,11 +64,14 @@
 }
 
 .bmpui-ui-settings-subtitles .bmpui-ui-listbox .bmpui-ui-listbox-button.bmpui-selected {
-    background-color: #4d4d4d
+    /* background-color: #4d4d4d */
+    background-color: rgba(0, 0, 0, 0);
+
 }
 
 .bmpui-ui-settings-subtitles .bmpui-ui-listbox .bmpui-ui-listbox-button:not(.bmpui-selected):hover {
-    background-color: #666
+    /* background-color: #666 */
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .bmpui-ui-rewindbutton,
@@ -98,7 +101,7 @@
     align-items: flex-end;
     transition: opacity .5s;
     opacity: 1;
-    background: linear-gradient(to bottom, transparent, rgba(17, 17, 17, 0.2) calc(100% - 70px), #111111 100%);
+    background: linear-gradient(to bottom, transparent, rgba(17, 17, 17, 0) calc(100% - 70px), rgba(0, 0, 0, 0) 100%);
     pointer-events: none
 }
 
@@ -112,7 +115,8 @@
 }
 
 .bmpui-ui-controlbar .bmpui-controlbar-bottom .bmpui-container-wrapper>button {
-    opacity: .8;
+    /* opacity: .8; */
+    opacity: 0;
     display: none;
 }
 
@@ -148,7 +152,7 @@ html.tablet .bmpui-ui-popupbutton {
     left: 0;
     right: 0;
     /* background-color: rgba(255, 255, 255, .2) */
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-backdrop:before {
@@ -160,7 +164,7 @@ html.tablet .bmpui-ui-popupbutton {
     z-index: 3;
     min-width: 225px;
     /* background: rgba(0, 0, 0, .85) */
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(0, 0, 0, 0);
 
 }
 
@@ -398,7 +402,7 @@ html.tablet .bmpui-ui-popupbutton {
     margin-right: 8px;
     margin-left: 0;
     /* background-color: #4d4d4d; */
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(0, 0, 0, 0);
     text-transform: uppercase;
     font-weight: 700;
     font-size: 12px;
@@ -418,7 +422,8 @@ html.tablet .bmpui-ui-popupbutton {
 .bmpui-ui-subtitlesettingsresetbutton {
     padding: 4px 8px 3px;
     width: auto;
-    background-color: #4d4d4d;
+    /* background-color: #4d4d4d; */
+    background-color: (0, 0, 0, 0);
     text-transform: uppercase;
     font-weight: 700;
     font-size: 12px;
@@ -426,7 +431,8 @@ html.tablet .bmpui-ui-popupbutton {
 }
 
 .bmpui-ui-subtitlesettingsresetbutton:hover {
-    background-color: #000
+    /* background-color: #000 */
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .bmpui-ui-settingspanelpageopenbutton {
@@ -481,7 +487,9 @@ html.tablet .bmpui-ui-popupbutton {
 }
 
 .bmpui-ui-ads-status .bmpui-ui-label-ad-message {
-    background: rgba(0, 0, 0, .4);
+    /* background: rgba(0, 0, 0, .4); */
+    background: rgba(0, 0, 0, 0);
+    ;
     padding: 5px;
     color: #fff;
     font-size: 14px
@@ -497,7 +505,8 @@ html.tablet .bmpui-ui-popupbutton {
     bottom: 85px;
     padding: .5em .8em;
     border: 1px solid #333;
-    background-color: #000;
+    /* background-color: #000; */
+    background-color: rgba(0, 0, 0, 0);
     align-items: center;
     height: 1.5em !important;
     z-index: 1
@@ -1539,7 +1548,8 @@ html.tablet .bmpui-layout-max-width-400 .bmpui-ui-recommendation-overlay .bmpui-
 }
 
 .M-rmp.C-audio.C-popup .bmpui-ui-uicontainer {
-    background: linear-gradient(179.49deg, rgba(0, 0, 0, 0) 61.25%, rgba(8, 8, 8, 0) 69.59%, #111111 81.13%), radial-gradient(289.16% 913.88% at 203.01% 50%, #111111 0%, rgba(17, 17, 17, 0) 53.47%, #111111 100%)
+    /* background: linear-gradient(179.49deg, rgba(0, 0, 0, 0) 61.25%, rgba(8, 8, 8, 0) 69.59%, #111111 81.13%), radial-gradient(289.16% 913.88% at 203.01% 50%, #111111 0%, rgba(17, 17, 17, 0) 53.47%, #111111 100%) */
+    background: linear-gradient(179.49deg, rgba(0, 0, 0, 0) 61.25%, rgba(8, 8, 8, 0) 69.59%, #111111 81.13%), radial-gradient(289.16% 913.88% at 203.01% 50%, #111111 0%, rgba(17, 17, 17, 0) 53.47%, rgba(17, 17, 17, 0) 100%)
 }
 
 .M-rmp.C-audio.C-popup .bmpui-ui-volumeslider {
@@ -1597,7 +1607,8 @@ html.tablet .bmpui-layout-max-width-400 .bmpui-ui-recommendation-overlay .bmpui-
         right: 0;
         bottom: 0;
         left: 0;
-        background: linear-gradient(179.49deg, rgba(0, 0, 0, 0) 65.25%, rgba(8, 8, 8, 0) 82.59%, #111111 94.13%), radial-gradient(289.16% 913.88% at 203.01% 50%, #111111 0%, rgba(17, 17, 17, 0) 53.47%, #111111 100%)
+        /* background: linear-gradient(179.49deg, rgba(0, 0, 0, 0) 65.25%, rgba(8, 8, 8, 0) 82.59%, #111111 94.13%), radial-gradient(289.16% 913.88% at 203.01% 50%, #111111 0%, rgba(17, 17, 17, 0) 53.47%, #111111 100%) */
+        background: linear-gradient(179.49deg, rgba(0, 0, 0, 0) 65.25%, rgba(8, 8, 8, 0) 82.59%, #111111 94.13%), radial-gradient(289.16% 913.88% at 203.01% 50%,  rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0) 53.47%,  rgba(17, 17, 17, 0) 100%)
     }
 
     .M-rmp.C-audio .bmpui-ui-controlbar {
