@@ -449,7 +449,7 @@ html.tablet .bmpui-ui-popupbutton {
 }
 
 .bmpui-ui-buffering-overlay {
-    background-color: rgba(0, 0, 0, .3)
+    background-color: rgba(0, 0, 0, 0)
 }
 
 .bmpui-ui-buffering-overlay .bmpui-ui-buffering-overlay-indicator {
@@ -612,12 +612,12 @@ html.tablet .bmpui-ui-popupbutton {
 }
 
 .bmpui-ui-recommendation-overlay {
-    background-color: #222
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .bmpui-ui-recommendation-overlay.bmpui-recommendations {
     z-index: 3;
-    background-color: #222;
+    background-color: rgba(0, 0, 0, 0);
     display: block;
     bottom: 0
 }
@@ -664,14 +664,14 @@ html.tablet .bmpui-ui-popupbutton {
 }
 
 .bmpui-ui-recommendation-overlay.bmpui-recommendations .bmpui-container-wrapper .bmpui-ui-recommendation-item .bmpui-background {
-    background: linear-gradient(180deg, transparent, transparent, rgba(0, 0, 0, 0.8));
+    background: linear-gradient(180deg, transparent, transparent, rgba(0, 0, 0, 0));
     top: 0
 }
 
 .bmpui-ui-recommendation-overlay.bmpui-recommendations .bmpui-container-wrapper .bmpui-ui-recommendation-item .bmpui-duration {
     top: 6px;
     right: 6px;
-    background: rgba(0, 0, 0, .5);
+    background: rgba(0, 0, 0, 0);
     border-radius: 8px;
     padding: 0 4px;
     font-size: 14px;
@@ -1035,7 +1035,7 @@ html.tablet .bmpui-ui-popupbutton {
     max-width: 400px;
     min-width: 280px;
     max-height: 100%;
-    background: rgba(0, 0, 0, .8);
+    background: rgba(0, 0, 0, 0);
     padding: 0 8px;
     overflow: auto;
     scrollbar-color: #be2649 #666;
@@ -1539,7 +1539,7 @@ html.tablet .bmpui-layout-max-width-400 .bmpui-ui-recommendation-overlay .bmpui-
 }
 
 .M-rmp.C-audio.C-popup .bmpui-ui-uicontainer {
-    background: linear-gradient(179.49deg, rgba(0, 0, 0, 0) 61.25%, rgba(8, 8, 8,0) 69.59%, #111111 81.13%), radial-gradient(289.16% 913.88% at 203.01% 50%, #111111 0%, rgba(17, 17, 17, 0) 53.47%, #111111 100%)
+    background: linear-gradient(179.49deg, rgba(0, 0, 0, 0) 61.25%, rgba(8, 8, 8, 0) 69.59%, #111111 81.13%), radial-gradient(289.16% 913.88% at 203.01% 50%, #111111 0%, rgba(17, 17, 17, 0) 53.47%, #111111 100%)
 }
 
 .M-rmp.C-audio.C-popup .bmpui-ui-volumeslider {
@@ -1663,7 +1663,7 @@ html.tablet .bmpui-layout-max-width-400 .bmpui-ui-recommendation-overlay .bmpui-
 }
 
 .M-rmp.C-standaloneAudio .bmpui-ui-hugeplaybacktogglebutton {
-    background: rgba(17, 17, 17, .4)
+    background: rgba(17, 17, 17, 0)
 }
 
 .M-rmp.C-standaloneAudio .bmpui-ui-hugeplaybacktogglebutton.bmpui-on .bmpui-image {
