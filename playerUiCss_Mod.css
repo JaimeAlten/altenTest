@@ -1179,7 +1179,7 @@
 }
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner {
-    border-bottom: 0.2em solid #be2649;
+    border-bottom: 0.2em solid #fff;
 }
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner::after {
