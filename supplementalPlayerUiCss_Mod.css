@@ -456,13 +456,13 @@ html.tablet .bmpui-ui-popupbutton {
 }
 
 .bmpui-ui-buffering-overlay {
-    background-color: rgba(0, 0, 0, 0)
+    background-color: rgba(0, 0, 0, 0.5)
 }
 
 .bmpui-ui-buffering-overlay .bmpui-ui-buffering-overlay-indicator {
     background-image: none;
     border-radius: 50%;
-    background-color: #be2649
+    background-color: #fff
 }
 
 .bmpui-ui-skin-ads .bmpui-container-wrapper .bmpui-ui-clickoverlay {
@@ -489,7 +489,7 @@ html.tablet .bmpui-ui-popupbutton {
 
 .bmpui-ui-ads-status .bmpui-ui-label-ad-message {
     /* background: rgba(0, 0, 0, .4); */
-    background: rgba(0, 0, 0, 0);
+    background: rgba(0, 0, 0, .4);
     ;
     padding: 5px;
     color: #fff;
@@ -507,7 +507,7 @@ html.tablet .bmpui-ui-popupbutton {
     padding: .5em .8em;
     border: 1px solid #333;
     /* background-color: #000; */
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 1);
     align-items: center;
     height: 1.5em !important;
     z-index: 1
@@ -1050,7 +1050,7 @@ html.tablet .bmpui-ui-popupbutton {
     background: rgba(0, 0, 0, 0);
     padding: 0 8px;
     overflow: auto;
-    scrollbar-color: #be2649 #666;
+    scrollbar-color: #fff #666;
     scrollbar-width: thin
 }
 
