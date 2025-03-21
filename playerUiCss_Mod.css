@@ -2087,12 +2087,12 @@
 }
 
 .bmpui-ui-buffering-overlay a {
-    color: #be2649;
+    color: #fff;
 }
 
 .bmpui-ui-buffering-overlay a:hover,
 .bmpui-ui-buffering-overlay a:visited {
-    color: #be2649;
+    color: #fff;
 }
 
 .bmpui-ui-buffering-overlay .bmpui-ui-buffering-overlay-indicator {
@@ -3234,7 +3234,7 @@
 }
 
 .bmpui-ui-uicontainer .bmpui-seekbar-playbackposition-marker {
-    background-color: #be2649 !important;
+    background-color: #fff !important;
 }
 
 .bmpui-ui-uicontainer .bmpui-seekbar .bmpui-seekbar-playbackposition-marker {
