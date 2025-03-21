@@ -689,7 +689,7 @@
 
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-markers>.bmpui-seekbar-marker,
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-markers>.bmpui-seekbar-marker {
-    background-color: #be2649;
+    background-color: #fff;
     height: 100%;
     text-align: center;
     -webkit-transition-duration: 1s;
