@@ -127,7 +127,7 @@
 
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-bufferlevel,
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-bufferlevel {
-    background-color: #fff
+    background-color: #be2649
 }
 
 html.mobile .bmpui-ui-volumeslider,
@@ -1050,7 +1050,7 @@ html.tablet .bmpui-ui-popupbutton {
     background: rgba(0, 0, 0, 0);
     padding: 0 8px;
     overflow: auto;
-    scrollbar-color: #fff #666;
+    scrollbar-color: #be2649 #666;
     scrollbar-width: thin
 }
 
