@@ -127,7 +127,7 @@
 
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-bufferlevel,
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-bufferlevel {
-    background-color: #be2649
+    background-color: #fff
 }
 
 html.mobile .bmpui-ui-volumeslider,
@@ -462,7 +462,7 @@ html.tablet .bmpui-ui-popupbutton {
 .bmpui-ui-buffering-overlay .bmpui-ui-buffering-overlay-indicator {
     background-image: none;
     border-radius: 50%;
-    background-color: #fff
+    background-color: #be2649
 }
 
 .bmpui-ui-skin-ads .bmpui-container-wrapper .bmpui-ui-clickoverlay {
