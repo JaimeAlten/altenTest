@@ -303,7 +303,8 @@ html.tablet .bmpui-ui-popupbutton {
     width: 4px;
     height: 4px;
     border-radius: 4px;
-    background-color: #fff;
+    /* background-color: #fff; */
+    background-color: #be2649;
     position: absolute;
     bottom: 4px;
     left: calc(50% - 2px);
