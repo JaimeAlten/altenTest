@@ -1494,8 +1494,7 @@ html.tablet .bmpui-layout-max-width-400 .bmpui-ui-recommendation-overlay .bmpui-
 }
 
 .M-rmp.C-audio .bmpui-ui-playbacktogglebutton:hover {
-    background-color: #da3158;
-    display: 'none'
+    background-color: #da3158
 }
 
 .M-rmp.C-audio .bmpui-ui-rewindbutton,
