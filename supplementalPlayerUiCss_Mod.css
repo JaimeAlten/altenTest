@@ -1424,7 +1424,7 @@ html.tablet .bmpui-layout-max-width-400 .bmpui-ui-recommendation-overlay .bmpui-
 .M-rmp.C-audio .bmpui-player-state-idle .bmpui-ui-playbacktimelabel,
 .M-rmp.C-audio .bmpui-player-state-prepared .bmpui-ui-playbacktimelabel-live,
 .M-rmp.C-audio .bmpui-player-state-prepared .bmpui-ui-playbacktimelabel {
-    visibility: hidden
+    visibility: visible
 }
 
 .M-rmp.C-audio .bmpui-player-state-idle .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-bufferlevel,
