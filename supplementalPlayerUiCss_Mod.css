@@ -333,7 +333,7 @@ html.tablet .bmpui-ui-popupbutton {
 .bmpui-ui-playbacktimelabel-live {
     position: absolute;
     height: 0;
-    overflow: hidden;
+    overflow: visible;
     width: 50px;
     padding-top: 30px;
     background-size: contain;
@@ -353,7 +353,7 @@ html.tablet .bmpui-ui-popupbutton {
 }
 
 .bmpui-ui-playbacktimelabel-live:before {
-    content: none
+    content: normal
 }
 
 .bmpui-ui-startoverbutton {
@@ -1548,7 +1548,7 @@ html.tablet .bmpui-layout-max-width-400 .bmpui-ui-recommendation-overlay .bmpui-
 }
 
 .M-rmp.C-audio.C-directe .bmpui-ui-playbacktimelabel-live:before {
-    content: none
+    content: normal
 }
 
 .M-rmp.C-audio.C-directe .bitmovinplayer-poster {
@@ -1716,7 +1716,7 @@ html.tablet .bmpui-layout-max-width-400 .bmpui-ui-recommendation-overlay .bmpui-
 
 .bmpui-ui-volumeslider,
 .bmpui-ui-fullscreentogglebutton,
-.bmpui-ui-volumetogglebutton,
+.bmpui-ui-volumetogglebutton,   
 .bmpui-ui-seekbar-label,
 .bmpui-ui-airplaytogglebutton,
 .bmpui-ui-airplaytogglebutton:hover,
