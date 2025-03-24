@@ -907,7 +907,7 @@
 }
 
 .bmpui-ui-skin-ads .bmpui-ui-ads-status .bmpui-hidden.bmpui-ui-label-ad-message,
-.bmpui-hidden.bmpui-ui-playbacktimelabel,
+/* .bmpui-hidden.bmpui-ui-playbacktimelabel, */
 .bmpui-hidden.bmpui-ui-label {
     display: none;
 }
