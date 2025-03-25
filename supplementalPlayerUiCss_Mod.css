@@ -1533,7 +1533,8 @@ html.tablet .bmpui-layout-max-width-400 .bmpui-ui-recommendation-overlay .bmpui-
     padding: 0 10px;
     font-size: 14px;
     color: rgba(255, 255, 255, .8);
-    min-width: auto !important
+    min-width: auto !important;
+    display: none;
 }
 
 .M-rmp.C-audio .bmpui-ui-playbacktimelabel.bmpui-text-right {
