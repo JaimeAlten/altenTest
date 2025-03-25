@@ -32,7 +32,7 @@
 
 .bmpui-player-state-idle .bmpui-ui-hugeplaybacktogglebutton,
 .bmpui-player-state-prepared .bmpui-ui-hugeplaybacktogglebutton {
-    background: rgba(17, 17, 17, 0)
+    background: rgba(17, 17, 17, .4)
 }
 
 .bmpui-player-state-playing .bmpui-image {
@@ -41,7 +41,7 @@
 }
 
 .bmpui-player-state-paused .bmpui-ui-hugeplaybacktogglebutton {
-    background: rgba(17, 17, 17, 0)
+    background: rgba(17, 17, 17, .2)
 }
 
 .bmpui-player-state-paused .bmpui-image {
@@ -64,14 +64,11 @@
 }
 
 .bmpui-ui-settings-subtitles .bmpui-ui-listbox .bmpui-ui-listbox-button.bmpui-selected {
-    /* background-color: #4d4d4d */
-    background-color: rgba(0, 0, 0, 0);
-
+    background-color: #4d4d4d
 }
 
 .bmpui-ui-settings-subtitles .bmpui-ui-listbox .bmpui-ui-listbox-button:not(.bmpui-selected):hover {
-    /* background-color: #666 */
-    background-color: rgba(0, 0, 0, 0);
+    background-color: #666
 }
 
 .bmpui-ui-rewindbutton,
@@ -101,7 +98,7 @@
     align-items: flex-end;
     transition: opacity .5s;
     opacity: 1;
-    background: linear-gradient(to bottom, transparent, rgba(17, 17, 17, 0) calc(100% - 70px), rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(to bottom, transparent, rgba(17, 17, 17, 0.2) calc(100% - 70px), #111111 100%);
     pointer-events: none
 }
 
@@ -115,9 +112,7 @@
 }
 
 .bmpui-ui-controlbar .bmpui-controlbar-bottom .bmpui-container-wrapper>button {
-    /* opacity: .8; */
-    opacity: 0;
-    display: none;
+    opacity: .8
 }
 
 .bmpui-ui-controlbar .bmpui-controlbar-bottom .bmpui-container-wrapper>button:hover {
@@ -127,11 +122,8 @@
 
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-bufferlevel,
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-bufferlevel {
-    background-color: #be2649;
-    display: none;
+    background-color: #eee
 }
-
-/* esto de arriba tiene que ir en blanco */
 
 html.mobile .bmpui-ui-volumeslider,
 html.mobile .bmpui-ui-popupbutton,
@@ -154,8 +146,7 @@ html.tablet .bmpui-ui-popupbutton {
     top: 8px;
     left: 0;
     right: 0;
-    /* background-color: rgba(255, 255, 255, .2) */
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(255, 255, 255, .2)
 }
 
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-backdrop:before {
@@ -166,9 +157,7 @@ html.tablet .bmpui-ui-popupbutton {
     top: 72px;
     z-index: 3;
     min-width: 225px;
-    /* background: rgba(0, 0, 0, .85) */
-    background-color: rgba(0, 0, 0, 0);
-
+    background: rgba(0, 0, 0, .85)
 }
 
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-bufferlevel,
@@ -186,8 +175,7 @@ html.tablet .bmpui-ui-popupbutton {
 }
 
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition {
-    background-color: #be2649 !important;
-    display: none;
+    background-color: #fff !important
 }
 
 .bmpui-ui-uicontainer .bmpui-seekbar .bmpui-seekbar-playbackposition-marker {
@@ -195,12 +183,11 @@ html.tablet .bmpui-ui-popupbutton {
 }
 
 .bmpui-ui-seekbar-label .bmpui-seekbar-label-inner>.bmpui-container-wrapper .bmpui-seekbar-label-metadata {
-    background-color: #be2649;
+    background-color: #fff;
     color: #333;
     background-image: none;
     padding: 5px 8px;
-    position: relative;
-    display: none;
+    position: relative
 }
 
 .bmpui-ui-seekbar-label {
@@ -228,8 +215,7 @@ html.tablet .bmpui-ui-popupbutton {
     width: 84px;
     height: 84px;
     background-color: #be2649;
-    border-radius: 50%;
-    display: none;
+    border-radius: 50%
 }
 
 .bmpui-image:after {
@@ -244,8 +230,7 @@ html.tablet .bmpui-ui-popupbutton {
 }
 
 .bmpui-image:hover:before {
-    background-color: #da3158;
-    display: none;
+    background-color: #da3158
 }
 
 .bmpui-ui-playbacktogglebutton,
@@ -308,18 +293,15 @@ html.tablet .bmpui-ui-popupbutton {
     width: 4px;
     height: 4px;
     border-radius: 4px;
-    /* background-color: #fff; */
-    background-color: #be2649;
+    background-color: #fff;
     position: absolute;
     bottom: 4px;
-    left: calc(50% - 2px);
-    display: none;
+    left: calc(50% - 2px)
 }
 
 .bmpui-ui-fullscreentogglebutton {
     background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIuNTg4NTIgOC40NzAzN0MyLjY2NTc3IDguNDcwNDMgMi43NDIyNSA4LjQ1NTI2IDIuODEzNjMgOC40MjU3M0MyLjg4NTAxIDguMzk2MTkgMi45NDk4NyA4LjM1Mjg2IDMuMDA0NDkgOC4yOTgyNEMzLjA1OTExIDguMjQzNjIgMy4xMDI0MiA4LjE3ODc4IDMuMTMxOTYgOC4xMDc0QzMuMTYxNDkgOC4wMzYwMiAzLjE3NjY4IDcuOTU5NTIgMy4xNzY2MiA3Ljg4MjI3VjQuMDA4MzdMMTAuMjMxMSAxMS4wNjI5QzEwLjM0MjIgMTEuMTY5OCAxMC40OTA3IDExLjIyODkgMTAuNjQ0OSAxMS4yMjc0QzEwLjc5OSAxMS4yMjYgMTAuOTQ2NSAxMS4xNjQxIDExLjA1NTUgMTEuMDU1MUMxMS4xNjQ1IDEwLjk0NjEgMTEuMjI2NCAxMC43OTg3IDExLjIyNzggMTAuNjQ0NUMxMS4yMjkzIDEwLjQ5MDMgMTEuMTcwMiAxMC4zNDE4IDExLjA2MzMgMTAuMjMwN0w0LjAwODM1IDMuMTc2MjFINy44ODI2OEM4LjAzODY1IDMuMTc2MjEgOC4xODgyMyAzLjExNDI1IDguMjk4NTIgMy4wMDM5NkM4LjQwODgxIDIuODkzNjcgOC40NzA3OCAyLjc0NDA5IDguNDcwNzggMi41ODgxMkM4LjQ3MDc4IDIuNDMyMTQgOC40MDg4MSAyLjI4MjU2IDguMjk4NTIgMi4xNzIyN0M4LjE4ODIzIDIuMDYxOTggOC4wMzg2NSAyLjAwMDAyIDcuODgyNjggMi4wMDAwMkgyLjU4ODUyQzIuNTExMjYgMS45OTk5NiAyLjQzNDc0IDIuMDE1MTMgMi4zNjMzNCAyLjA0NDY2QzIuMjkxOTQgMi4wNzQxOSAyLjIyNzA1IDIuMTE3NTIgMi4xNzI0IDIuMTcyMTNDMi4xMTc3NCAyLjIyNjc1IDIuMDc0MzkgMi4yOTE1OSAyLjA0NDgxIDIuMzYyOTdDMi4wMTUyMyAyLjQzNDM1IDIgMi41MTA4NSAyIDIuNTg4MTJWNy44ODIyN0MyIDcuOTU5NTQgMi4wMTUyMyA4LjAzNjA0IDIuMDQ0ODEgOC4xMDc0MkMyLjA3NDM5IDguMTc4OCAyLjExNzc0IDguMjQzNjYgMi4xNzI0IDguMjk4MjhDMi4yMjcwNSA4LjM1Mjg5IDIuMjkxOTQgOC4zOTYyIDIuMzYzMzQgOC40MjU3M0MyLjQzNDc0IDguNDU1MjYgMi41MTEyNiA4LjQ3MDQzIDIuNTg4NTIgOC40NzAzN1oiIGZpbGw9IiNmZmYiLz4KPHBhdGggZD0iTTE5Ljk5MjEgMjAuODIzNEgxNi4xMTc4QzE1Ljk2MTggMjAuODIzNCAxNS44MTIyIDIwLjg4NTMgMTUuNzAxOSAyMC45OTU2QzE1LjU5MTYgMjEuMTA1OSAxNS41Mjk3IDIxLjI1NTUgMTUuNTI5NyAyMS40MTE1QzE1LjUyOTcgMjEuNTY3NSAxNS41OTE2IDIxLjcxNyAxNS43MDE5IDIxLjgyNzNDMTUuODEyMiAyMS45Mzc2IDE1Ljk2MTggMjEuOTk5NiAxNi4xMTc4IDIxLjk5OTZIMjEuNDEyQzIxLjQ4OTIgMjEuOTk5NiAyMS41NjU3IDIxLjk4NDUgMjEuNjM3MSAyMS45NTQ5QzIxLjcwODQgMjEuOTI1NCAyMS43NzMzIDIxLjg4MjEgMjEuODI3OSAyMS44Mjc0QzIxLjg4MjUgMjEuNzcyOCAyMS45MjU5IDIxLjcwOCAyMS45NTU0IDIxLjYzNjZDMjEuOTg0OSAyMS41NjUyIDIyLjAwMDEgMjEuNDg4NyAyMi4wMDAxIDIxLjQxMTVWMTYuMTE3M0MyMi4wMDAxIDE1Ljk2MTMgMjEuOTM4MSAxNS44MTE4IDIxLjgyNzggMTUuNzAxNUMyMS43MTc1IDE1LjU5MTIgMjEuNTY3OSAxNS41MjkyIDIxLjQxMiAxNS41MjkyQzIxLjI1NiAxNS41MjkyIDIxLjEwNjQgMTUuNTkxMiAyMC45OTYxIDE1LjcwMTVDMjAuODg1OCAxNS44MTE4IDIwLjgyMzkgMTUuOTYxMyAyMC44MjM5IDE2LjExNzNWMTkuOTkxMkwxMy43Njg5IDEyLjkzNjdDMTMuNjU3MyAxMi44MzM1IDEzLjUwOTkgMTIuNzc3NSAxMy4zNTc4IDEyLjc4MDZDMTMuMjA1NyAxMi43ODM3IDEzLjA2MDcgMTIuODQ1NSAxMi45NTMzIDEyLjk1MzJDMTIuODQ1OSAxMy4wNjA5IDEyLjc4NDQgMTMuMjA2IDEyLjc4MTcgMTMuMzU4MUMxMi43NzkgMTMuNTEwMiAxMi44MzUzIDEzLjY1NzUgMTIuOTM4OSAxMy43Njg5TDE5Ljk5MjEgMjAuODIzNFoiIGZpbGw9IiNmZmYiLz4KPHBhdGggZD0iTTIxLjQxMiAySDE2LjExNzhDMTUuOTYxOCAyIDE1LjgxMjIgMi4wNjE5NiAxNS43MDE5IDIuMTcyMjVDMTUuNTkxNiAyLjI4MjU1IDE1LjUyOTcgMi40MzIxMiAxNS41Mjk3IDIuNTg4MUMxNS41Mjk3IDIuNzQ0MDcgMTUuNTkxNiAyLjg5MzY1IDE1LjcwMTkgMy4wMDM5NEMxNS44MTIyIDMuMTE0MjMgMTUuOTYxOCAzLjE3NjIgMTYuMTE3OCAzLjE3NjJIMTkuOTkyMUwxMi45MzcyIDEwLjIzMDdDMTIuODMzNyAxMC4zNDIxIDEyLjc3NzMgMTAuNDg5MyAxMi43OCAxMC42NDE0QzEyLjc4MjcgMTAuNzkzNSAxMi44NDQyIDEwLjkzODcgMTIuOTUxNiAxMS4wNDY0QzEzLjA1OTEgMTEuMTU0MSAxMy4yMDQxIDExLjIxNTkgMTMuMzU2MSAxMS4yMTlDMTMuNTA4MiAxMS4yMjIxIDEzLjY1NTYgMTEuMTY2MSAxMy43NjczIDExLjA2MjhMMjAuODIyMiA0LjAwODM1VjcuODgyMjVDMjAuODIyMiA4LjAzODIzIDIwLjg4NDEgOC4xODc4MSAyMC45OTQ0IDguMjk4MUMyMS4xMDQ3IDguNDA4MzkgMjEuMjU0MyA4LjQ3MDM1IDIxLjQxMDMgOC40NzAzNUMyMS41NjYzIDguNDcwMzUgMjEuNzE1OCA4LjQwODM5IDIxLjgyNjEgOC4yOTgxQzIxLjkzNjQgOC4xODc4MSAyMS45OTg0IDguMDM4MjMgMjEuOTk4NCA3Ljg4MjI1VjIuNTg4MUMyMS45OTg1IDIuNDMyMzggMjEuOTM2OCAyLjI4Mjk5IDIxLjgyNjggMi4xNzI3MkMyMS43MTY5IDIuMDYyNDUgMjEuNTY3NyAyLjAwMDMzIDIxLjQxMiAyWiIgZmlsbD0iI2ZmZiIvPgo8cGF0aCBkPSJNMi41ODg1OCAyMS45OTk2SDcuODgyNzRDOC4wMzg3MSAyMS45OTk2IDguMTg4MjkgMjEuOTM3NiA4LjI5ODU4IDIxLjgyNzNDOC40MDg4NyAyMS43MTcgOC40NzA4MyAyMS41Njc1IDguNDcwODMgMjEuNDExNUM4LjQ3MDgzIDIxLjI1NTUgOC40MDg4NyAyMS4xMDU5IDguMjk4NTggMjAuOTk1NkM4LjE4ODI5IDIwLjg4NTQgOC4wMzg3MSAyMC44MjM0IDcuODgyNzQgMjAuODIzNEg0LjAwODRMMTEuMDYzMyAxMy43Njg5QzExLjE3MDMgMTMuNjU3OSAxMS4yMjkzIDEzLjUwOTMgMTEuMjI3OSAxMy4zNTUxQzExLjIyNjQgMTMuMjAxIDExLjE2NDYgMTMuMDUzNSAxMS4wNTU2IDEyLjk0NDVDMTAuOTQ2NSAxMi44MzU1IDEwLjc5OTEgMTIuNzczNiAxMC42NDQ5IDEyLjc3MjJDMTAuNDkwOCAxMi43NzA3IDEwLjM0MjIgMTIuODI5OCAxMC4yMzEyIDEyLjkzNjdMMy4xNzY2OCAxOS45OTEyVjE2LjExNzNDMy4xNzI2IDE1Ljk2NCAzLjEwODg0IDE1LjgxODMgMi45OTg5NSAxNS43MTEzQzIuODg5MDcgMTUuNjA0MyAyLjc0MTc1IDE1LjU0NDUgMi41ODgzOCAxNS41NDQ1QzIuNDM1IDE1LjU0NDUgMi4yODc2NyAxNS42MDQzIDIuMTc3NzggMTUuNzExM0MyLjA2NzkgMTUuODE4MyAyLjAwNDEzIDE1Ljk2NCAyLjAwMDA2IDE2LjExNzNWMjEuNDEyM0MyLjAwMDI4IDIxLjU2ODIgMi4wNjI0IDIxLjcxNzcgMi4xNzI3NiAyMS44Mjc4QzIuMjgzMTEgMjEuOTM3OSAyLjQzMjY4IDIxLjk5OTcgMi41ODg1OCAyMS45OTk2WiIgZmlsbD0iI2ZmZiIvPgo8L3N2Zz4K);
-    background-size: 21px;
-    display: none;
+    background-size: 21px
 }
 
 .bmpui-ui-fullscreentogglebutton.bmpui-on {
@@ -390,8 +372,7 @@ html.tablet .bmpui-ui-popupbutton {
 }
 
 .bmpui-ui-selectbox option:checked {
-    color: #be2649;
-    display: none;
+    color: #be2649
 }
 
 .bmpui-ui-label {
@@ -410,8 +391,7 @@ html.tablet .bmpui-ui-popupbutton {
     width: auto;
     margin-right: 8px;
     margin-left: 0;
-    /* background-color: #4d4d4d; */
-    background-color: rgba(0, 0, 0, 0);
+    background-color: #4d4d4d;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 12px;
@@ -420,8 +400,7 @@ html.tablet .bmpui-ui-popupbutton {
 }
 
 .bmpui-ui-settingspanelpagebackbutton:hover {
-    /* background-color: #000; */
-    background-color: rgba(0, 0, 0, 0);;
+    background-color: #000
 }
 
 .bmpui-ui-settingspanelpagebackbutton .bmpui-label:before {
@@ -432,8 +411,7 @@ html.tablet .bmpui-ui-popupbutton {
 .bmpui-ui-subtitlesettingsresetbutton {
     padding: 4px 8px 3px;
     width: auto;
-    /* background-color: #4d4d4d; */
-    background-color: (0, 0, 0, 0);
+    background-color: #4d4d4d;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 12px;
@@ -441,8 +419,7 @@ html.tablet .bmpui-ui-popupbutton {
 }
 
 .bmpui-ui-subtitlesettingsresetbutton:hover {
-    /* background-color: #000 */
-    background-color: rgba(0, 0, 0, 0);
+    background-color: #000
 }
 
 .bmpui-ui-settingspanelpageopenbutton {
@@ -465,7 +442,7 @@ html.tablet .bmpui-ui-popupbutton {
 }
 
 .bmpui-ui-buffering-overlay {
-    background-color: rgba(0, 0, 0, 0.5)
+    background-color: rgba(0, 0, 0, .3)
 }
 
 .bmpui-ui-buffering-overlay .bmpui-ui-buffering-overlay-indicator {
@@ -473,8 +450,6 @@ html.tablet .bmpui-ui-popupbutton {
     border-radius: 50%;
     background-color: #be2649
 }
-
-/* esto no cambia los colores */
 
 .bmpui-ui-skin-ads .bmpui-container-wrapper .bmpui-ui-clickoverlay {
     height: 100%
@@ -499,9 +474,7 @@ html.tablet .bmpui-ui-popupbutton {
 }
 
 .bmpui-ui-ads-status .bmpui-ui-label-ad-message {
-    /* background: rgba(0, 0, 0, .4); */
     background: rgba(0, 0, 0, .4);
-    ;
     padding: 5px;
     color: #fff;
     font-size: 14px
@@ -517,8 +490,7 @@ html.tablet .bmpui-ui-popupbutton {
     bottom: 85px;
     padding: .5em .8em;
     border: 1px solid #333;
-    /* background-color: #000; */
-    background-color: rgba(0, 0, 0, 1);
+    background-color: #000;
     align-items: center;
     height: 1.5em !important;
     z-index: 1
@@ -556,9 +528,9 @@ html.tablet .bmpui-ui-popupbutton {
 }
 
 .bmpui-ui-up-next-item {
-    background: rgba(38, 38, 38, 0.5);
+    background: rgba(38, 38, 38, .8);
     border-radius: 0;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
     color: rgba(255, 255, 255, .8);
     max-width: 400px;
     height: 80px;
@@ -633,12 +605,12 @@ html.tablet .bmpui-ui-popupbutton {
 }
 
 .bmpui-ui-recommendation-overlay {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: #222
 }
 
 .bmpui-ui-recommendation-overlay.bmpui-recommendations {
     z-index: 3;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: #222;
     display: block;
     bottom: 0
 }
@@ -664,8 +636,7 @@ html.tablet .bmpui-ui-popupbutton {
 }
 
 .bmpui-ui-recommendation-overlay.bmpui-recommendations .bmpui-container-wrapper .bmpui-ui-recommendation-item:hover {
-    outline: 1px solid #fff;
-    display: none;
+    outline: 1px solid #fff
 }
 
 .bmpui-ui-recommendation-overlay.bmpui-recommendations .bmpui-container-wrapper .bmpui-ui-recommendation-item .bmpui-title {
@@ -686,14 +657,14 @@ html.tablet .bmpui-ui-popupbutton {
 }
 
 .bmpui-ui-recommendation-overlay.bmpui-recommendations .bmpui-container-wrapper .bmpui-ui-recommendation-item .bmpui-background {
-    background: linear-gradient(180deg, transparent, transparent, rgba(0, 0, 0, 0));
+    background: linear-gradient(180deg, transparent, transparent, rgba(0, 0, 0, 0.8));
     top: 0
 }
 
 .bmpui-ui-recommendation-overlay.bmpui-recommendations .bmpui-container-wrapper .bmpui-ui-recommendation-item .bmpui-duration {
     top: 6px;
     right: 6px;
-    background: rgba(0, 0, 0, 0);
+    background: rgba(0, 0, 0, .5);
     border-radius: 8px;
     padding: 0 4px;
     font-size: 14px;
@@ -718,22 +689,20 @@ html.tablet .bmpui-ui-popupbutton {
 }
 
 .bmpui-ui-recommendation-overlay.bmpui-recommendations .bmpui-container-wrapper::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
     border-radius: 2px;
-    /* background-color: #666 */
-    background-color: rgba(0, 0, 0, 0);
+    background-color: #666
 }
 
 .bmpui-ui-recommendation-overlay.bmpui-recommendations .bmpui-container-wrapper::-webkit-scrollbar {
     width: 4px;
     height: 4px;
-    /* background-color: #666 */
-    background-color: rgba(0, 0, 0, 0);
+    background-color: #666
 }
 
 .bmpui-ui-recommendation-overlay.bmpui-recommendations .bmpui-container-wrapper::-webkit-scrollbar-thumb {
     border-radius: 2px;
-    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
     background-color: #be2649
 }
 
@@ -1059,11 +1028,10 @@ html.tablet .bmpui-ui-popupbutton {
     max-width: 400px;
     min-width: 280px;
     max-height: 100%;
-    background: rgba(0, 0, 0, 0);
+    background: rgba(0, 0, 0, .8);
     padding: 0 8px;
     overflow: auto;
     scrollbar-color: #be2649 #666;
-    display: none;
     scrollbar-width: thin
 }
 
@@ -1071,11 +1039,9 @@ html.tablet .bmpui-ui-popupbutton {
 .bmpui-layout-max-width-600 .bmpui-ui-settings-panel-page::-webkit-scrollbar-track,
 .bmpui-layout-max-width-800 .bmpui-ui-settings-panel-page::-webkit-scrollbar-track,
 .bmpui-layout-max-width-1200 .bmpui-ui-settings-panel-page::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
     border-radius: 2px;
-    /* background-color: #666 */
-    background-color: rgba(0, 0, 0, 0);
-
+    background-color: #666
 }
 
 .bmpui-layout-max-width-400 .bmpui-ui-settings-panel-page::-webkit-scrollbar,
@@ -1084,9 +1050,7 @@ html.tablet .bmpui-ui-popupbutton {
 .bmpui-layout-max-width-1200 .bmpui-ui-settings-panel-page::-webkit-scrollbar {
     width: 4px;
     height: 4px;
-    /* background-color: #666 */
-    background-color: rgba(0, 0, 0, 0);
-
+    background-color: #666
 }
 
 .bmpui-layout-max-width-400 .bmpui-ui-settings-panel-page::-webkit-scrollbar-thumb,
@@ -1094,10 +1058,8 @@ html.tablet .bmpui-ui-popupbutton {
 .bmpui-layout-max-width-800 .bmpui-ui-settings-panel-page::-webkit-scrollbar-thumb,
 .bmpui-layout-max-width-1200 .bmpui-ui-settings-panel-page::-webkit-scrollbar-thumb {
     border-radius: 2px;
-    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
-    background-color: #be2649;
-    display: none
-
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #be2649
 }
 
 .bmpui-layout-max-width-400 .bmpui-ui-settings-subtitles,
@@ -1372,6 +1334,7 @@ html.tablet .bmpui-layout-max-width-400 .bmpui-ui-recommendation-overlay .bmpui-
     background: transparent;
     position: absolute;
     top: 0;
+    overflow: visible
 }
 
 .M-rmp.C-audio .bmpui-ui-recommendation-overlay {
@@ -1427,24 +1390,21 @@ html.tablet .bmpui-layout-max-width-400 .bmpui-ui-recommendation-overlay .bmpui-
 
 .M-rmp.C-audio .bmpui-player-state-idle .bmpui-controlbar-top .bmpui-seekbar-playbackposition,
 .M-rmp.C-audio .bmpui-player-state-prepared .bmpui-controlbar-top .bmpui-seekbar-playbackposition {
-    visibility: hidden;
-    display: none
-
+    visibility: hidden
 }
 
 .M-rmp.C-audio .bmpui-player-state-idle .bmpui-ui-playbacktimelabel-live,
 .M-rmp.C-audio .bmpui-player-state-idle .bmpui-ui-playbacktimelabel,
 .M-rmp.C-audio .bmpui-player-state-prepared .bmpui-ui-playbacktimelabel-live,
 .M-rmp.C-audio .bmpui-player-state-prepared .bmpui-ui-playbacktimelabel {
-    visibility: hidden;
-    display: none
+    visibility: hidden
 }
 
 .M-rmp.C-audio .bmpui-player-state-idle .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-bufferlevel,
 .M-rmp.C-audio .bmpui-player-state-idle .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-bufferlevel,
 .M-rmp.C-audio .bmpui-player-state-prepared .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-bufferlevel,
 .M-rmp.C-audio .bmpui-player-state-prepared .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-bufferlevel {
-    background-color: rgba(255, 255, 255, 0)
+    background-color: rgba(255, 255, 255, .2)
 }
 
 .M-rmp.C-audio .bmpui-ui-controlbar {
@@ -1573,8 +1533,7 @@ html.tablet .bmpui-layout-max-width-400 .bmpui-ui-recommendation-overlay .bmpui-
 }
 
 .M-rmp.C-audio.C-popup .bmpui-ui-uicontainer {
-    /* background: linear-gradient(179.49deg, rgba(0, 0, 0, 0) 61.25%, rgba(8, 8, 8, 0) 69.59%, #111111 81.13%), radial-gradient(289.16% 913.88% at 203.01% 50%, #111111 0%, rgba(17, 17, 17, 0) 53.47%, #111111 100%) */
-    background: linear-gradient(179.49deg, rgba(0, 0, 0, 0) 61.25%, rgba(8, 8, 8, 0) 69.59%, #111111 81.13%), radial-gradient(289.16% 913.88% at 203.01% 50%, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0) 53.47%, rgba(17, 17, 17, 0) 100%)
+    background: linear-gradient(179.49deg, rgba(0, 0, 0, 0) 61.25%, rgba(8, 8, 8, 0.6) 69.59%, #111111 81.13%), radial-gradient(289.16% 913.88% at 203.01% 50%, #111111 0%, rgba(17, 17, 17, 0) 53.47%, #111111 100%)
 }
 
 .M-rmp.C-audio.C-popup .bmpui-ui-volumeslider {
@@ -1632,8 +1591,7 @@ html.tablet .bmpui-layout-max-width-400 .bmpui-ui-recommendation-overlay .bmpui-
         right: 0;
         bottom: 0;
         left: 0;
-        /* background: linear-gradient(179.49deg, rgba(0, 0, 0, 0) 65.25%, rgba(8, 8, 8, 0) 82.59%, #111111 94.13%), radial-gradient(289.16% 913.88% at 203.01% 50%, #111111 0%, rgba(17, 17, 17, 0) 53.47%, #111111 100%) */
-        background: linear-gradient(179.49deg, rgba(0, 0, 0, 0) 65.25%, rgba(8, 8, 8, 0) 82.59%, #111111 94.13%), radial-gradient(289.16% 913.88% at 203.01% 50%, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0) 53.47%, rgba(17, 17, 17, 0) 100%)
+        background: linear-gradient(179.49deg, rgba(0, 0, 0, 0) 65.25%, rgba(8, 8, 8, 0.6) 82.59%, #111111 94.13%), radial-gradient(289.16% 913.88% at 203.01% 50%, #111111 0%, rgba(17, 17, 17, 0) 53.47%, #111111 100%)
     }
 
     .M-rmp.C-audio .bmpui-ui-controlbar {
@@ -1699,7 +1657,7 @@ html.tablet .bmpui-layout-max-width-400 .bmpui-ui-recommendation-overlay .bmpui-
 }
 
 .M-rmp.C-standaloneAudio .bmpui-ui-hugeplaybacktogglebutton {
-    background: rgba(17, 17, 17, 0)
+    background: rgba(17, 17, 17, .4)
 }
 
 .M-rmp.C-standaloneAudio .bmpui-ui-hugeplaybacktogglebutton.bmpui-on .bmpui-image {
@@ -1747,6 +1705,7 @@ html.tablet .bmpui-layout-max-width-400 .bmpui-ui-recommendation-overlay .bmpui-
 .bmpui-ui-casttogglebutton:focus:not(.bmpui-focus-visible),
 .bmpui-ui-casttogglebutton:focus,
 .bmpui-disabled.bmpui-ui-casttogglebutton .bmpui-label:hover,
+.bmpui-seekbar,
 .bmpui-ui-casttogglebutton {
     display: none !important;
 }
