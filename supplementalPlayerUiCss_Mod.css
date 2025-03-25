@@ -497,7 +497,8 @@ html.tablet .bmpui-ui-popupbutton {
 
     padding: 5px;
     color: #fff;
-    font-size: 14px
+    font-size: 14px;
+    display: none;
 }
 
 .bmpui-ui-ads-status .bmpui-ui-button-ad-skip {
