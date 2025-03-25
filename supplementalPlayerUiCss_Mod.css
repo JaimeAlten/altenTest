@@ -21,7 +21,7 @@
 }
 
 .bmpui-controls-shown .bmpui-ui-hugeplaybacktogglebutton .bmpui-image {
-    visibility: visible
+    visibility: hidden
 }
 
 .bmpui-player-state-idle .bmpui-ui-controlbar,
