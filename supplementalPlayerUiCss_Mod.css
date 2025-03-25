@@ -105,7 +105,7 @@
     transition: opacity .5s;
     opacity: 1;
     /* background: linear-gradient(to bottom, transparent, rgba(17, 17, 17, 0.2) calc(100% - 70px), #111111 100%); */
-    background: linear-gradient(to bottom, transparent, rgba(17, 17, 17, 0) calc(100% - 70px),  rgba(17, 17, 17, 0) 100%);
+    background: linear-gradient(to bottom, transparent, rgba(17, 17, 17, 0) calc(100% - 70px), rgba(17, 17, 17, 0) 100%);
     pointer-events: none
 }
 
@@ -559,7 +559,8 @@ html.tablet .bmpui-ui-popupbutton {
     height: 80px;
     overflow: hidden;
     width: 64%;
-    z-index: 2
+    z-index: 2;
+    display: none;
 }
 
 .bmpui-ui-up-next-item .bmpui-up-next-thumbnail {
@@ -1632,7 +1633,6 @@ html.tablet .bmpui-layout-max-width-400 .bmpui-ui-recommendation-overlay .bmpui-
         left: 0;
         /* background: linear-gradient(179.49deg, rgba(0, 0, 0, 0) 65.25%, rgba(8, 8, 8, 0.6) 82.59%, #111111 94.13%), radial-gradient(289.16% 913.88% at 203.01% 50%, #111111 0%, rgba(17, 17, 17, 0) 53.47%, #111111 100%) */
         background: linear-gradient(179.49deg, rgba(0, 0, 0, 0) 65.25%, rgba(8, 8, 8, 0) 82.59%, rgba(0, 0, 0, 0) 94.13%), radial-gradient(289.16% 913.88% at 203.01% 50%, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0) 53.47%, rgba(0, 0, 0, 0) 100%)
-
     }
 
     .M-rmp.C-audio .bmpui-ui-controlbar {
@@ -1749,6 +1749,16 @@ html.tablet .bmpui-layout-max-width-400 .bmpui-ui-recommendation-overlay .bmpui-
 .bmpui-ui-casttogglebutton:focus,
 .bmpui-disabled.bmpui-ui-casttogglebutton .bmpui-label:hover,
 .bmpui-seekbar,
-.bmpui-ui-casttogglebutton {
+.bmpui-ui-settingspanelpagebackbutton,
+.bmpui-ui-casttogglebutton,
+.bmpui-ui-audiotracksettingstogglebutton,
+.bmpui-ui-settingspanelpagebackbutton,
+.bmpui-ui-settingspanelpageopenbutton,
+.bmpui-ui-settingstogglebutton,
+.bmpui-ui-subtitlesettingsresetbutton,
+.bmpui-ui-subtitlesettingstogglebutton,
+.bmpui-ui-volumetogglebutton,
+.bmpui-ui-vrtogglebutton,
+.bmpui-ui-watermark {
     display: none !important;
 }
