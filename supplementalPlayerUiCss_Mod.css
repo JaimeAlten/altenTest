@@ -671,7 +671,8 @@ html.tablet .bmpui-ui-popupbutton {
 }
 
 .bmpui-ui-recommendation-overlay.bmpui-recommendations .bmpui-container-wrapper .bmpui-ui-recommendation-item:hover {
-    outline: 1px solid #fff
+    outline: 1px solid #fff;
+    display: none;
 }
 
 .bmpui-ui-recommendation-overlay.bmpui-recommendations .bmpui-container-wrapper .bmpui-ui-recommendation-item .bmpui-title {
