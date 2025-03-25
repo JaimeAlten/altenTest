@@ -585,7 +585,8 @@ html.tablet .bmpui-ui-popupbutton {
 }
 
 .bmpui-ui-up-next-item .bmpui-up-next-thumbnail:hover .bmpui-label {
-    color: #fff
+    color: #fff;
+    display: none;
 }
 
 .bmpui-ui-up-next-item .bmpui-up-next-close {
