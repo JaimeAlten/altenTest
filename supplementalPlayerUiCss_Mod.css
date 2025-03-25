@@ -198,7 +198,8 @@ html.tablet .bmpui-ui-popupbutton {
     color: #333;
     background-image: none;
     padding: 5px 8px;
-    position: relative
+    position: relative;
+    display: none;
 }
 
 .bmpui-ui-seekbar-label {
