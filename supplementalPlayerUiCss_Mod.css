@@ -186,7 +186,8 @@ html.tablet .bmpui-ui-popupbutton {
 }
 
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition {
-    background-color: #fff !important
+    background-color: #fff !important;
+    display: 'none'
 }
 
 .bmpui-ui-uicontainer .bmpui-seekbar .bmpui-seekbar-playbackposition-marker {
