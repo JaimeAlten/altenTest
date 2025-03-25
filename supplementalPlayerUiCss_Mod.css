@@ -500,7 +500,6 @@ html.tablet .bmpui-ui-popupbutton {
 .bmpui-ui-ads-status .bmpui-ui-label-ad-message {
     /* background: rgba(0, 0, 0, .4); */
     background: rgba(0, 0, 0, .0);
-
     padding: 5px;
     color: #fff;
     font-size: 14px;
@@ -512,7 +511,7 @@ html.tablet .bmpui-ui-popupbutton {
     pointer-events: all;
     cursor: pointer;
     position: absolute;
-    display: flex;
+    /* display: flex; */
     right: 3.5em;
     bottom: 85px;
     padding: .5em .8em;
@@ -521,7 +520,8 @@ html.tablet .bmpui-ui-popupbutton {
     background-color: rgba(0, 0, 0, .0);
     align-items: center;
     height: 1.5em !important;
-    z-index: 1
+    z-index: 1;
+    display: none;
 }
 
 .bmpui-ui-ads-status .bmpui-ui-button-ad-skip:before {
