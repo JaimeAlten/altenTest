@@ -375,7 +375,8 @@ html.tablet .bmpui-ui-popupbutton {
     text-overflow: ellipsis;
     overflow: hidden !important;
     margin-left: 0 !important;
-    padding-right: 24px
+    padding-right: 24px;
+    display: none;
 }
 
 .bmpui-ui-selectbox option {
