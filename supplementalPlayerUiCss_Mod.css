@@ -311,7 +311,8 @@ html.tablet .bmpui-ui-popupbutton {
     background-color: #fff;
     position: absolute;
     bottom: 4px;
-    left: calc(50% - 2px)
+    left: calc(50% - 2px);
+    display: none;
 }
 
 .bmpui-ui-fullscreentogglebutton {
