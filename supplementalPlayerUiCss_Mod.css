@@ -21,7 +21,7 @@
 }
 
 .bmpui-controls-shown .bmpui-ui-hugeplaybacktogglebutton .bmpui-image {
-    visibility: hidden
+    visibility: visible
 }
 
 .bmpui-player-state-idle .bmpui-ui-controlbar,
@@ -672,7 +672,7 @@ html.tablet .bmpui-ui-popupbutton {
 
 .bmpui-ui-recommendation-overlay.bmpui-recommendations .bmpui-container-wrapper .bmpui-ui-recommendation-item:hover {
     outline: 1px solid #fff;
-    display: none;
+    display: none
 }
 
 .bmpui-ui-recommendation-overlay.bmpui-recommendations .bmpui-container-wrapper .bmpui-ui-recommendation-item .bmpui-title {
@@ -1533,8 +1533,7 @@ html.tablet .bmpui-layout-max-width-400 .bmpui-ui-recommendation-overlay .bmpui-
     padding: 0 10px;
     font-size: 14px;
     color: rgba(255, 255, 255, .8);
-    min-width: auto !important;
-    display: none;
+    min-width: auto !important
 }
 
 .M-rmp.C-audio .bmpui-ui-playbacktimelabel.bmpui-text-right {
