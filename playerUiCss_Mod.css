@@ -2302,7 +2302,7 @@
  * );
  */
 .bmpui-ui-piptogglebutton {
-    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 32 32' style='enable-background:new 0 0 32 32%3B' xml:space='preserve'%3E%3Cstyle type='text/css'%3E.st0%7Bfill-rule:evenodd%3Bclip-rule:evenodd%3Bfill:%23FFFFFF%3B%7D%3C/style%3E%3Cg%3E%3Cg id='Rectangle_512'%3E%3Cg%3E%3Cpath class='st0' d='M5%2C8.3h19.8v5.5H27V8.3c0-1.2-1-2.2-2.2-2.2H5c-1.2%2C0-2.2%2C1-2.2%2C2.2v12.1c0%2C1.2%2C1%2C2.2%2C2.2%2C2.2h7.7v-2.2H5 V8.3z M14.9%2C16v9.9h14.3V16H14.9z'/%3E%3C/g%3E%3C/g%3E%3Cg id='Rectangle_513'%3E%3Cg%3E%3Cpolygon class='st0' points='12.7%2C10.5 7.2%2C10.5 7.2%2C16 9.4%2C16 9.4%2C12.7 12.7%2C12.7 '/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    /* background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 32 32' style='enable-background:new 0 0 32 32%3B' xml:space='preserve'%3E%3Cstyle type='text/css'%3E.st0%7Bfill-rule:evenodd%3Bclip-rule:evenodd%3Bfill:%23FFFFFF%3B%7D%3C/style%3E%3Cg%3E%3Cg id='Rectangle_512'%3E%3Cg%3E%3Cpath class='st0' d='M5%2C8.3h19.8v5.5H27V8.3c0-1.2-1-2.2-2.2-2.2H5c-1.2%2C0-2.2%2C1-2.2%2C2.2v12.1c0%2C1.2%2C1%2C2.2%2C2.2%2C2.2h7.7v-2.2H5 V8.3z M14.9%2C16v9.9h14.3V16H14.9z'/%3E%3C/g%3E%3C/g%3E%3Cg id='Rectangle_513'%3E%3Cg%3E%3Cpolygon class='st0' points='12.7%2C10.5 7.2%2C10.5 7.2%2C16 9.4%2C16 9.4%2C12.7 12.7%2C12.7 '/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E"); */
 }
 
 .bmpui-ui-piptogglebutton:hover {
