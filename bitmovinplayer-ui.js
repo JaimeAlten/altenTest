@@ -17752,6 +17752,8 @@
               const scriptUrl = new URL(currentScript.src);
               const platform = new URLSearchParams(scriptUrl.search).get('platform');
 
+              console.log('HOAAASDASFASFDAD', platform)
+
               var controlBarBottomComponents = [
                 new controlsoverlay_1.ControlsOverlay(),
                 new volumetogglebutton_1.VolumeToggleButton(),
