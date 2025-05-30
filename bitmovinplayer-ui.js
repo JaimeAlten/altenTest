@@ -17762,7 +17762,7 @@
                 popupButton,
                 mosaicButton,
                 // ...(platform !== 'android' ? [pipButton] : []),
-                pipButton,
+                // pipButton,
                 new fullscreentogglebutton_1.FullscreenToggleButton(),
                 new casttogglebutton_1.CastToggleButton(),
                 new airplaytogglebutton_1.AirPlayToggleButton(),
