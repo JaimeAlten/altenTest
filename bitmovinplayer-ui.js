@@ -17750,8 +17750,9 @@
 
               const currentScript = document.currentScript || [...document.getElementsByTagName('script')].pop();
               const scriptUrl = new URL(currentScript.src);
-              const platform = new URLSearchParams(scriptUrl.search).get('platform');
+              let platform = new URLSearchParams(scriptUrl.search).get('platform');
 
+              platform === 'android'
 
               var controlBarBottomComponents = [
                 new controlsoverlay_1.ControlsOverlay(),
