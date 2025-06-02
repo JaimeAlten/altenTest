@@ -17752,6 +17752,7 @@
               const scriptUrl = new URL(currentScript.src);
               const platform = new URLSearchParams(scriptUrl.search).get('platform');
 
+
               var controlBarBottomComponents = [
                 new controlsoverlay_1.ControlsOverlay(),
                 new volumetogglebutton_1.VolumeToggleButton(),
@@ -17761,8 +17762,8 @@
                 new settingstogglebutton_1.SettingsToggleButton({ settingsPanel: settingsPanel }),
                 popupButton,
                 mosaicButton,
-                // ...(platform !== 'android' ? [pipButton] : []),
-                // pipButton,
+                // Solo añadir pipButton si NO estamos en Android
+                ...(platform !== 'android' ? [pipButton] : []),
                 new fullscreentogglebutton_1.FullscreenToggleButton(),
                 new casttogglebutton_1.CastToggleButton(),
                 new airplaytogglebutton_1.AirPlayToggleButton(),
