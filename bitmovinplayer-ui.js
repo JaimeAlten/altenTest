@@ -17752,7 +17752,7 @@
               const scriptUrl = new URL(currentScript.src);
               let platform = new URLSearchParams(scriptUrl.search).get('platform');
 
-              platform === 'android'
+              platform = 'android'
 
               var controlBarBottomComponents = [
                 new controlsoverlay_1.ControlsOverlay(),
