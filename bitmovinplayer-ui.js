@@ -17763,7 +17763,7 @@
                 new settingstogglebutton_1.SettingsToggleButton({ settingsPanel: settingsPanel }),
                 popupButton,
                 mosaicButton,
-                platform !== 'android' ? pipButton : null,
+                ...(platform !== 'android' ? [pipButton] : []),
                 new fullscreentogglebutton_1.FullscreenToggleButton(),
                 new casttogglebutton_1.CastToggleButton(),
                 new airplaytogglebutton_1.AirPlayToggleButton(),
