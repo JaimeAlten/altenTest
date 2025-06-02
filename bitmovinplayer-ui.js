@@ -16996,6 +16996,12 @@
               subtitleSettingsPanelPage.addComponent(
                 new closebutton_1.CloseButton({ target: settingsPanel }),
               );
+
+              // 3catInfo modification
+              const currentScript = document.currentScript || [...document.getElementsByTagName('script')].pop();
+              const scriptUrl = new URL(currentScript.src);
+              let platform = new URLSearchParams(scriptUrl.search).get('platform');
+
               var controlBar = new controlbar_1.ControlBar({
                 components: [
                   new container_1.Container({
@@ -17020,7 +17026,7 @@
                       new volumetogglebutton_1.VolumeToggleButton(),
                       new volumeslider_1.VolumeSlider(),
                       new spacer_1.Spacer(),
-                      // new pictureinpicturetogglebutton_1.PictureInPictureToggleButton(),
+                      new pictureinpicturetogglebutton_1.PictureInPictureToggleButton(),
                       new settingstogglebutton_1.SettingsToggleButton({
                         settingsPanel: settingsPanel,
                       }),
@@ -17030,6 +17036,44 @@
                   }),
                 ],
               });
+
+              var controlBarWithoutPip = new controlbar_1.ControlBar({
+                components: [
+                  new container_1.Container({
+                    components: [
+                      new playbacktimelabel_1.PlaybackTimeLabel({
+                        timeLabelMode:
+                          playbacktimelabel_1.PlaybackTimeLabelMode.CurrentTime,
+                        hideInLivePlayback: true,
+                      }),
+                      new seekbar_1.SeekBar({ label: new seekbarlabel_1.SeekBarLabel() }),
+                      new playbacktimelabel_1.PlaybackTimeLabel({
+                        timeLabelMode:
+                          playbacktimelabel_1.PlaybackTimeLabelMode.TotalTime,
+                        cssClasses: ["text-right"],
+                      })
+                    ],
+                    cssClasses: ['controlbar-top'],
+                  }),
+                  new container_1.Container({
+                    components: [
+                      new playbacktogglebutton_1.PlaybackToggleButton(),
+                      new volumetogglebutton_1.VolumeToggleButton(),
+                      new volumeslider_1.VolumeSlider(),
+                      new spacer_1.Spacer(),
+                      new settingstogglebutton_1.SettingsToggleButton({
+                        settingsPanel: settingsPanel,
+                      }),
+                      new fullscreentogglebutton_1.FullscreenToggleButton(),
+                    ],
+                    cssClasses: ['controlbar-bottom'],
+                  }),
+                ],
+              });
+              
+              // swith pipbutton if platform is android
+              const resultControBar =  platform === 'android' ? controlBarWithoutPip : controlBar
+
               return new uicontainer_1.UIContainer({
                 components: [
                   subtitleOverlay,
@@ -17037,7 +17081,7 @@
                   new caststatusoverlay_1.CastStatusOverlay(),
                   new playbacktoggleoverlay_1.PlaybackToggleOverlay(),
                   new recommendationoverlay_1.RecommendationOverlay(),
-                  controlBar,
+                  resultControBar,
                   new titlebar_1.TitleBar({
                     components: [
                       //  new MetadataLabel({ content: MetadataLabelContent.Title }),
@@ -17748,12 +17792,6 @@
                 player.pause();
               });
 
-              const currentScript = document.currentScript || [...document.getElementsByTagName('script')].pop();
-              const scriptUrl = new URL(currentScript.src);
-              let platform = new URLSearchParams(scriptUrl.search).get('platform');
-
-              platform = 'android'
-
               var controlBarBottomComponents = [
                 new controlsoverlay_1.ControlsOverlay(),
                 new volumetogglebutton_1.VolumeToggleButton(),
@@ -17763,7 +17801,7 @@
                 new settingstogglebutton_1.SettingsToggleButton({ settingsPanel: settingsPanel }),
                 pipButton,
                 popupButton,
-                mosaicButton,            
+                mosaicButton,
                 new fullscreentogglebutton_1.FullscreenToggleButton(),
                 new casttogglebutton_1.CastToggleButton(),
                 new airplaytogglebutton_1.AirPlayToggleButton(),
