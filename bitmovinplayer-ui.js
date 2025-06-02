@@ -16998,9 +16998,16 @@
               );
 
               // 3catInfo modification
-              const currentScript = document.currentScript || [...document.getElementsByTagName('script')].pop();
-              const scriptUrl = new URL(currentScript.src);
-              let platform = new URLSearchParams(scriptUrl.search).get('platform');
+              // busca el parametro en todos los scripts de la pagina
+              let platform = null;
+              const scripts = document.getElementsByTagName('script');
+              for (let script of scripts) {
+                if (script.src && script.src.includes('bitmovinplayer-ui.js')) {
+                  const url = new URL(script.src);
+                  platform = new URLSearchParams(url.search).get('platform');
+                  if (platform) break;
+                }
+              }
 
               var controlBar = new controlbar_1.ControlBar({
                 components: [
@@ -17070,9 +17077,9 @@
                   }),
                 ],
               });
-              
+
               // swith pipbutton if platform is android
-              const resultControBar =  platform === 'android' ? controlBarWithoutPip : controlBar
+              const resultControBar = platform === 'android' ? controlBarWithoutPip : controlBar
 
               return new uicontainer_1.UIContainer({
                 components: [
