@@ -12473,7 +12473,7 @@
                         new videoqualityselectbox_1.VideoQualitySelectBox(),
                       ),
                       new settingspanelitem_1.SettingsPanelItem(
-                        'Speed',
+                        'Velocitat',
                         new playbackspeedselectbox_1.PlaybackSpeedSelectBox(),
                       ),
                       new settingspanelitem_1.SettingsPanelItem(
@@ -13760,14 +13760,14 @@
       95: [
         function (require, module, exports) {
           module.exports = {
-            'settings.video.quality': 'Video Quality',
-            'settings.audio.quality': 'Audio Quality',
-            'settings.audio.track': 'Audio Track',
+            'settings.video.quality': 'Qualitat del vídeo',
+            'settings.audio.quality': 'Qualitat de l’àudio',
+            'settings.audio.track': 'Pista d’àudio',
             'settings.audio.mute': 'Mute',
             'settings.audio.volume': 'Volume',
             'settings.subtitles.window.color': 'Window color',
             'settings.subtitles.window.opacity': 'Window opacity',
-            'settings.subtitles': 'Subtitles',
+            'settings.subtitles': 'Subtítols',
             'settings.subtitles.font.color': 'Font color',
             'settings.subtitles.font.opacity': 'Font opacity',
             'settings.subtitles.background.color': 'Background color',
