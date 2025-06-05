@@ -13801,7 +13801,7 @@
             'ads.remainingTime': 'This ad will end in {remainingTime} seconds.',
             settings: 'Settings',
             fullscreen: 'Fullscreen',
-            speed: 'Speed',
+            speed: 'Velocitat',
             playPause: 'Play/Pause',
             play: 'Play',
             pause: 'Pause',
