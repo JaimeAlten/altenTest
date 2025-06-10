@@ -3339,5 +3339,7 @@ select::after,
 }
 
 .bmpui-ui-selectbox {
+  background: none !important;
   background-image: none !important;
+  padding-right: 0 !important;
 }
