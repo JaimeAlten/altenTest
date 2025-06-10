@@ -1685,11 +1685,22 @@ html.tablet .bmpui-layout-max-width-400 .bmpui-ui-recommendation-overlay .bmpui-
     }
 }
 
-/* ELIMINA LA FLECHA DEL SELECTOR DE SETTINGS DE BITMOVIN */
+/*   ESTILOS NUEVOS  3CATINFO */
+
 select {
-  appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  display: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: transparent;
 }
 
+.bmui-settings-menu__arrow,
+.bm-ui .custom-select-arrow {
+    display: none !important;
+}
+
+select::after,
+.bm-ui .select-wrapper::after {
+    display: none !important;
+    content: none !important;
+}
