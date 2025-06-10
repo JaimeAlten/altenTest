@@ -1696,11 +1696,23 @@ select {
 
 .bmui-settings-menu__arrow,
 .bm-ui .custom-select-arrow {
-    display: none !important;
+  display: none !important;
 }
 
 select::after,
 .bm-ui .select-wrapper::after {
-    display: none !important;
-    content: none !important;
+  display: none !important;
+  content: none !important;
+}
+
+.bmpui-ui-selectbox-arrow,
+.bmpui-ui-selectbox__arrow,
+.bmpui-ui-selectbox:after {
+  display: none !important;
+  background: none !important;
+  content: none !important;
+}
+
+.bmpui-ui-selectbox {
+  background-image: none !important;
 }

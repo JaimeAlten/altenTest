@@ -3329,3 +3329,15 @@ select::after,
   content: none !important;
 
 }
+
+.bmpui-ui-selectbox-arrow,
+.bmpui-ui-selectbox__arrow,
+.bmpui-ui-selectbox:after {
+  display: none !important;
+  background: none !important;
+  content: none !important;
+}
+
+.bmpui-ui-selectbox {
+  background-image: none !important;
+}
