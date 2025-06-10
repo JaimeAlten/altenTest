@@ -1685,9 +1685,3 @@ html.tablet .bmpui-layout-max-width-400 .bmpui-ui-recommendation-overlay .bmpui-
     }
 }
 
-/* ELIMINA LA FLECHA DEL SELECTOR DE SETTINGS DE BITMOVIN */
-select {
-  appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-}
