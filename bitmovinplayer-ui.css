@@ -3311,14 +3311,14 @@
 
 /*   ESTILOS NUEVOS  3CATINFO */
 
-select {
+/* select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   background: transparent;
-}
+} */
 
-/* .bmpui-ui-selectbox {
+.bmpui-ui-selectbox {
   background: none !important;
   background-image: none !important;
   padding-right: 0 !important;
@@ -3330,4 +3330,4 @@ div.bmpui-ui-uicontainer select.bmpui-ui-selectbox,
   background-image: none !important;
   padding-right: 0 !important;
   box-shadow: none !important;
-} */
+}
