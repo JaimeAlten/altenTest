@@ -1688,33 +1688,22 @@ html.tablet .bmpui-layout-max-width-400 .bmpui-ui-recommendation-overlay .bmpui-
 /*   ESTILOS NUEVOS  3CATINFO */
 
 select {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    background: transparent;
-}
-
-.bmui-settings-menu__arrow,
-.bm-ui .custom-select-arrow {
-  display: none !important;
-}
-
-select::after,
-.bm-ui .select-wrapper::after {
-  display: none !important;
-  content: none !important;
-}
-
-.bmpui-ui-selectbox-arrow,
-.bmpui-ui-selectbox__arrow,
-.bmpui-ui-selectbox:after {
-  display: none !important;
-  background: none !important;
-  content: none !important;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
 }
 
 .bmpui-ui-selectbox {
   background: none !important;
   background-image: none !important;
   padding-right: 0 !important;
+}
+
+div.bmpui-ui-uicontainer select.bmpui-ui-selectbox,
+.bmpui-ui-selectbox {
+  background: none !important;
+  background-image: none !important;
+  padding-right: 0 !important;
+  box-shadow: none !important;
 }
