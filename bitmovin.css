@@ -1719,4 +1719,8 @@ div.bmpui-ui-uicontainer select.bmpui-ui-selectbox,
         z-index: 1001;
 
     }
+
+    .bmpui-ui-uicontainer {
+        background-color: yellowgreen;
+    }
 }
