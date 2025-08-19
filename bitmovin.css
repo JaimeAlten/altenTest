@@ -1557,6 +1557,52 @@ html.tablet .bmpui-layout-max-width-400 .bmpui-ui-recommendation-overlay .bmpui-
     left: 0
 }
 
+
+.M-rmp.C-audio .bmpui-layout-max-width-400 .bmpui-ui-casttogglebutton {
+    top: -1.25vw;
+    right: 0;
+    position: absolute
+}
+
+.M-rmp.C-audio .bmpui-layout-max-width-400 .bmpui-ui-playbacktimelabel-live {
+    left: auto;
+    right: 0
+}
+
+.M-rmp.C-audio.C-directe .bmpui-layout-max-width-400 .bmpui-ui-casttogglebutton {
+    top: 20px;
+    z-index: 2
+}
+
+.M-rmp.C-standaloneAudio .bmpui-player-state-idle .bmpui-ui-controlbar,
+.M-rmp.C-standaloneAudio .bmpui-player-state-prepared .bmpui-ui-controlbar,
+.M-rmp.C-standaloneAudio .bmpui-player-state-playing .bmpui-ui-controlbar {
+    visibility: visible;
+    opacity: 1
+}
+
+.M-rmp.C-standaloneAudio .bmpui-ui-fullscreentogglebutton,
+.M-rmp.C-standaloneAudio .bmpui-ui-settingstogglebutton,
+.M-rmp.C-standaloneAudio .bmpui-ui-piptogglebutton {
+    display: none
+}
+
+.M-rmp.C-standaloneAudio .bmpui-ui-popupbutton {
+    display: block
+}
+
+.M-rmp.C-standaloneAudio .bmpui-ui-hugeplaybacktogglebutton {
+    background: rgba(17, 17, 17, .4)
+}
+
+.M-rmp.C-standaloneAudio .bmpui-ui-hugeplaybacktogglebutton.bmpui-on .bmpui-image {
+    visibility: visible
+}
+
+.M-rmp.C-standaloneAudio .bmpui-ui-titlebar {
+    background: transparent
+}
+
 @media(max-width: 458px) {
     .M-rmp.C-audio.C-directe .bmpui-ui-playbacktimelabel-live {
         left: auto
@@ -1607,7 +1653,7 @@ html.tablet .bmpui-layout-max-width-400 .bmpui-ui-recommendation-overlay .bmpui-
 
     .M-rmp.C-audio.C-directe .bitmovinplayer-poster {
         width: 52% !important;
-        /* left: 24%; */
+        left: 24%;
         aspect-ratio: 1/1;
         background-size: contain
     }
@@ -1624,59 +1670,14 @@ html.tablet .bmpui-layout-max-width-400 .bmpui-ui-recommendation-overlay .bmpui-
     }
 }
 
-/* @media (min-width: 881px) {
+@media (min-width: 881px) {
     
     .bmpui-container-wrapper {
-        position: relative;
         width: 100%;
         height: 100%;
     }
-} */
-
-.M-rmp.C-audio .bmpui-layout-max-width-400 .bmpui-ui-casttogglebutton {
-    top: -1.25vw;
-    right: 0;
-    position: absolute
 }
 
-.M-rmp.C-audio .bmpui-layout-max-width-400 .bmpui-ui-playbacktimelabel-live {
-    left: auto;
-    right: 0
-}
-
-.M-rmp.C-audio.C-directe .bmpui-layout-max-width-400 .bmpui-ui-casttogglebutton {
-    top: 20px;
-    z-index: 2
-}
-
-.M-rmp.C-standaloneAudio .bmpui-player-state-idle .bmpui-ui-controlbar,
-.M-rmp.C-standaloneAudio .bmpui-player-state-prepared .bmpui-ui-controlbar,
-.M-rmp.C-standaloneAudio .bmpui-player-state-playing .bmpui-ui-controlbar {
-    visibility: visible;
-    opacity: 1
-}
-
-.M-rmp.C-standaloneAudio .bmpui-ui-fullscreentogglebutton,
-.M-rmp.C-standaloneAudio .bmpui-ui-settingstogglebutton,
-.M-rmp.C-standaloneAudio .bmpui-ui-piptogglebutton {
-    display: none
-}
-
-.M-rmp.C-standaloneAudio .bmpui-ui-popupbutton {
-    display: block
-}
-
-.M-rmp.C-standaloneAudio .bmpui-ui-hugeplaybacktogglebutton {
-    background: rgba(17, 17, 17, .4)
-}
-
-.M-rmp.C-standaloneAudio .bmpui-ui-hugeplaybacktogglebutton.bmpui-on .bmpui-image {
-    visibility: visible
-}
-
-.M-rmp.C-standaloneAudio .bmpui-ui-titlebar {
-    background: transparent
-}
 
 @supports not (aspect-ratio: 16/9) {
     .bitmovinplayer-container {
