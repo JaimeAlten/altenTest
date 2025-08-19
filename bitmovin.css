@@ -1671,19 +1671,13 @@ html.tablet .bmpui-layout-max-width-400 .bmpui-ui-recommendation-overlay .bmpui-
 }
 
 @media (min-width: 881px) {
-    
-    .bmpui-container-wrapper {
-        position: 'absolute';
-        background-color: greenyellow;
-        z-index: 1000;
-        display: 'flex';
-        flex-direction: 'column';
-        align-items: 'center';
-        justify-content: 'center';
-        width: 100%;
+
+    .bmpui-ui-playbacktoggle-overlay {
+        background-color: aquamarine;
+        z-index: 1001;
     }
 
-    .bmpui-ui-hugeplaybacktogglebutton .bmpui-ui-hugeplaybacktogglebutton-image .bmpui-ui-playbacktoggle-overlay  {
+    .bmpui-ui-hugeplaybacktogglebutton .bmpui-ui-hugeplaybacktogglebutton-image  {
         position: absolute;
         top: '50%';
         left: '50%';
