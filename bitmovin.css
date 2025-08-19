@@ -1677,9 +1677,8 @@ html.tablet .bmpui-layout-max-width-400 .bmpui-ui-recommendation-overlay .bmpui-
         z-index: 1000;
     }
 
-    .bmpui-ui-playbacktoggle-overlay {
-        background-color: aquamarine;
-        z-index: 1001;
+    .bmpui-ui-hugeplaybacktogglebutton {
+        background-color: 'red';
     }
 }
 
