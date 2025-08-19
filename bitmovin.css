@@ -1675,6 +1675,7 @@ html.tablet .bmpui-layout-max-width-400 .bmpui-ui-recommendation-overlay .bmpui-
     .bmpui-container-wrapper {
         position: 'absolute';
         background-color: greenyellow;
+        z-index: 1000;
     }
 
     .bmpui-ui-playbacktoggle-overlay {
