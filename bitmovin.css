@@ -1682,6 +1682,12 @@ html.tablet .bmpui-layout-max-width-400 .bmpui-ui-recommendation-overlay .bmpui-
         justify-content: 'center';
         width: 100%;
     }
+
+    .bmpui-ui-hugeplaybacktogglebutton {
+        position: absolute;
+        top: '50%';
+        left: '50%';
+    }
 }
 
 
