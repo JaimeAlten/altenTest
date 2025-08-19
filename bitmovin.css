@@ -1675,6 +1675,11 @@ html.tablet .bmpui-layout-max-width-400 .bmpui-ui-recommendation-overlay .bmpui-
     .bmpui-container-wrapper {
         position: 'absolute';
     }
+
+    .bmpui-ui-playbacktoggle-overlay {
+        left: 50%;
+        top: 50%;
+    }
 }
 
 
