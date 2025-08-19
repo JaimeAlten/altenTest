@@ -1624,14 +1624,14 @@ html.tablet .bmpui-layout-max-width-400 .bmpui-ui-recommendation-overlay .bmpui-
     }
 }
 
-@media (min-width: 881px) {
-    /* Aquí van los estilos para 881px o mayor */
+/* @media (min-width: 881px) {
+    
     .bmpui-container-wrapper {
-        position: absolute;
+        position: relative;
         width: 100%;
         height: 100%;
     }
-}
+} */
 
 .M-rmp.C-audio .bmpui-layout-max-width-400 .bmpui-ui-casttogglebutton {
     top: -1.25vw;
