@@ -1670,17 +1670,6 @@ html.tablet .bmpui-layout-max-width-400 .bmpui-ui-recommendation-overlay .bmpui-
     }
 }
 
-@media (min-width: 881px) {
-
-    .bmpui-container-wrapper {
-        background-color: pink;
-        z-index: 1000;
-    }
-
-    .bmpui-ui-hugeplaybacktogglebutton {
-        background-color: 'red';
-    }
-}
 
 
 @supports not (aspect-ratio: 16/9) {
@@ -1716,4 +1705,18 @@ div.bmpui-ui-uicontainer select.bmpui-ui-selectbox,
     background-image: none !important;
     /* padding-right: 0 !important; */
     box-shadow: none !important;
+}
+
+@media (min-width: 881px) {
+
+    .bmpui-container-wrapper {
+        background-color: pink;
+        z-index: 1000;
+    }
+
+    .bmpui-ui-hugeplaybacktogglebutton {
+        background-color: 'red' !important;
+        z-index: 1001;
+
+    }
 }
