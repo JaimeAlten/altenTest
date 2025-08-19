@@ -1673,8 +1673,6 @@ html.tablet .bmpui-layout-max-width-400 .bmpui-ui-recommendation-overlay .bmpui-
 @media (min-width: 881px) {
     
     .bmpui-container-wrapper {
-        width: 100%;
-        height: 100%;
         position: 'absolute';
     }
 }
