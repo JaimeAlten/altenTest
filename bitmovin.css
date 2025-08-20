@@ -1714,13 +1714,12 @@ div.bmpui-ui-uicontainer select.bmpui-ui-selectbox,
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: pink;
     }
 
-    /* .bmpui-ui-playbacktogglebutton {
+    .bmpui-ui-playbacktogglebutton {
         display: flex;
         background-color: yellow;
         justify-content: center;
         align-items: center;
-    } */
+    }
 }
