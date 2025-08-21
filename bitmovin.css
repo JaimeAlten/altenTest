@@ -1713,5 +1713,7 @@ div.bmpui-ui-uicontainer select.bmpui-ui-selectbox,
         display: flex;
         justify-content: center;
         align-items: center;
+        top: 0;
+        left: 0;
     }
 }
