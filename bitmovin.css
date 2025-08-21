@@ -1709,17 +1709,7 @@ div.bmpui-ui-uicontainer select.bmpui-ui-selectbox,
 
 @media (min-width: 881px) {
 
-    .bmpui-ui-uicontainer {
-        display: 'flex';
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .bmpui-ui-playbacktogglebutton {
-        display: flex;
+    .bmpui-ui-recommendation-overlay {
         background-color: yellow;
-        justify-content: center;
-        align-items: center;
     }
 }
