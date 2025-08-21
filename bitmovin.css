@@ -1709,7 +1709,6 @@ div.bmpui-ui-uicontainer select.bmpui-ui-selectbox,
 
 @media (min-width: 881px) {
     .bmpui-image {
-        background-color: red;
         display: flex;
         justify-content: center;
         align-items: center;
