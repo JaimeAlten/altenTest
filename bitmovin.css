@@ -1716,3 +1716,7 @@ div.bmpui-ui-uicontainer select.bmpui-ui-selectbox,
         left: 0;
     }
 }
+
+.bmpui-ui-piptogglebutton {
+    display: none !important;
+}

@@ -3324,3 +3324,8 @@ div.bmpui-ui-uicontainer select.bmpui-ui-selectbox,
   /* padding-right: 0 !important; */
   box-shadow: none !important;
 }
+
+
+.bmpui-ui-piptogglebutton {
+    display: none !important;
+}
