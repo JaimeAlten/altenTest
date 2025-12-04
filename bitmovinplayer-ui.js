@@ -13768,7 +13768,7 @@
             'settings.subtitles.window.color': 'Window color',
             'settings.subtitles.window.opacity': 'Window opacity',
             'settings.subtitles': 'Subtítols',
-            'settings.subtitles.font.color': 'Font color',
+            'settings.subtitles.font.color': 'Color de la font',
             'settings.subtitles.font.opacity': 'Font opacity',
             'settings.subtitles.background.color': 'Background color',
             'settings.subtitles.background.opacity': 'Background opacity',
