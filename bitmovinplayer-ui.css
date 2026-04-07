@@ -3329,3 +3329,7 @@ div.bmpui-ui-uicontainer select.bmpui-ui-selectbox,
 .bmpui-ui-piptogglebutton {
     display: none !important;
 }
+
+.bmpui-ui-hugeplaybacktogglebutton {
+  z-index: 0 !important;
+}
