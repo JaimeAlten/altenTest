@@ -13765,29 +13765,29 @@
             'settings.audio.track': 'Pista d’àudio',
             'settings.audio.mute': 'Mute',
             'settings.audio.volume': 'Volume',
-            'settings.subtitles.window.color': 'Window color',
-            'settings.subtitles.window.opacity': 'Window opacity',
+            'settings.subtitles.window.color': 'Color de la finestra',
+            'settings.subtitles.window.opacity': 'Opacitat de la finestra',
             'settings.subtitles': 'Subtítols',
-            'settings.subtitles.font.color': 'Color de la font',
-            'settings.subtitles.font.opacity': 'Font opacity',
-            'settings.subtitles.background.color': 'Background color',
-            'settings.subtitles.background.opacity': 'Background opacity',
-            'colors.white': 'white',
-            'colors.black': 'black',
-            'colors.red': 'red',
-            'colors.green': 'green',
-            'colors.blue': 'blue',
-            'colors.cyan': 'cyan',
-            'colors.yellow': 'yellow',
+            'settings.subtitles.font.color': 'Color del text',
+            'settings.subtitles.font.opacity': 'Opacitat del text',
+            'settings.subtitles.background.color': 'Color de fons',
+            'settings.subtitles.background.opacity': 'Opacitat del fons',
+            'colors.white': 'blanc',
+            'colors.black': 'negre',
+            'colors.red': 'vermell',
+            'colors.green': 'verd',
+            'colors.blue': 'blau',
+            'colors.cyan': 'cian',
+            'colors.yellow': 'groc',
             'colors.magenta': 'magenta',
             percent: '{value}%',
-            'settings.subtitles.font.size': 'Font size',
-            'settings.subtitles.characterEdge': 'Character edge',
-            'settings.subtitles.characterEdge.raised': 'raised',
-            'settings.subtitles.characterEdge.depressed': 'depressed',
-            'settings.subtitles.characterEdge.uniform': 'uniform',
-            'settings.subtitles.characterEdge.dropshadowed': 'drop shadowed',
-            'settings.subtitles.font.family': 'Font family',
+            'settings.subtitles.font.size': 'Mida del text',
+            'settings.subtitles.characterEdge': 'Contorn del text',
+            'settings.subtitles.characterEdge.raised': 'en relleu',
+            'settings.subtitles.characterEdge.depressed': 'enfonsada',
+            'settings.subtitles.characterEdge.uniform': 'uniforme',
+            'settings.subtitles.characterEdge.dropshadowed': 'ombra projectada',
+            'settings.subtitles.font.family': 'Família del text',
             'settings.subtitles.font.family.monospacedserif': 'monospaced serif',
             'settings.subtitles.font.family.proportionalserif': 'proportional serif',
             'settings.subtitles.font.family.monospacedsansserif': 'monospaced sans serif',
@@ -13795,41 +13795,41 @@
             'settings.subtitles.font.family.casual': 'casual',
             'settings.subtitles.font.family.cursive': 'cursive',
             'settings.subtitles.font.family.smallcapital': 'small capital',
-            'settings.time.hours': 'Hours',
-            'settings.time.minutes': 'Minutes',
-            'settings.time.seconds': 'Seconds',
-            'ads.remainingTime': 'This ad will end in {remainingTime} seconds.',
-            settings: 'Settings',
-            fullscreen: 'Fullscreen',
+            'settings.time.hours': 'Hores',
+            'settings.time.minutes': 'Minuts',
+            'settings.time.seconds': 'Segons',
+            'ads.remainingTime': 'Aquest anunci acabarà en {remainingTime} segons.',
+            settings: 'Configuració',
+            fullscreen: 'Pantalla completa',
             speed: 'Velocitat',
             playPause: 'Reprodueix/Pausa',
             play: 'Reprodueix',
             pause: 'Pausa',
-            open: 'open',
-            close: 'Close',
-            pictureInPicture: 'Picture-in-Picture',
+            open: 'Obre',
+            close: 'Tanca',
+            pictureInPicture: 'Finestra flotant de vídeo',
             appleAirplay: 'Apple AirPlay',
             googleCast: 'Google Cast',
-            vr: 'VR',
-            off: 'off',
-            auto: 'auto',
-            back: 'Back',
-            reset: 'Reset',
-            replay: 'Replay',
-            normal: 'normal',
-            default: 'default',
-            live: 'Live',
-            'subtitle.example': 'example subtitle',
-            'subtitle.select': 'Select subtitle',
-            playingOn: 'Playing on <strong>{castDeviceName}</strong>',
-            connectingTo: 'Connecting to <strong>{castDeviceName}</strong>...',
-            watermarkLink: 'Link to Homepage',
-            controlBar: 'Video player controls',
-            player: 'Video player',
-            seekBar: 'Video timeline',
-            'seekBar.value': 'Value',
-            'seekBar.timeshift': 'Timeshift',
-            'seekBar.durationText': 'out of',
+            vr: 'RV',
+            off: 'Desactivat',
+            auto: 'Automàtic',
+            back: 'Enrere',
+            reset: 'Reinicia',
+            replay: 'Tornar a reproduir',
+            normal: 'Normal',
+            default: 'Per defecte',
+            live: 'En directe',
+            'subtitle.example': 'exemple de subtítol',
+            'subtitle.select': 'Tria subtítol',
+            playingOn: 'S’està reproduint a <strong>{castDeviceName}</strong>',
+            connectingTo: 'S’està connectant a <strong>{castDeviceName}</strong>...',
+            watermarkLink: "Enllaç a l'inici",
+            controlBar: 'Controls del reproductor de vídeo',
+            player: 'Reproductor de vídeo',
+            seekBar: 'Línia de temps del vídeo',
+            'seekBar.value': 'Valor',
+            'seekBar.timeshift': 'Desplaçament temporal',
+            'seekBar.durationText': 'de',
           };
         },
         {},
@@ -16520,10 +16520,35 @@
           var SubtitleSwitchHandler = (exports.SubtitleSwitchHandler = /** @class */ (function () {
             function SubtitleSwitchHandler(player, element, uimanager) {
               var _this = this;
+              // PATCH MDSSMM-6739: On Android with DASH streams, Bitmovin exposes in-stream
+              // CEA-608 tracks (label "Captions (CC1)") and tracks with raw ISO language codes
+              // as labels (e.g. "ca", "es"). This function filters out CEA-608 tracks and
+              // resolves ISO-only labels to human-readable names using a language map.
+              this.isCea608Track = function (subtitle) {
+                return /^Captions?\s*\(CC\d+\)$/i.test(subtitle.label || '');
+              };
+              this.resolveSubtitleLabel = function (subtitle) {
+                var label = subtitle.label || '';
+                var ISO_LABEL_MAP = {
+                  'ca': 'Català', 'es': 'Castellano', 'en': 'English',
+                  'fr': 'Français', 'de': 'Deutsch', 'it': 'Italiano',
+                  'pt': 'Português', 'eu': 'Euskera', 'gl': 'Galego',
+                  'ar': 'Àrab', 'oc': 'Occità',
+                };
+                var isIsoOnlyLabel = /^[a-z]{2,3}(-[a-z]{2,4})?$/i.test(label);
+                if (isIsoOnlyLabel) {
+                  var lang = (subtitle.language || label).toLowerCase().split('-')[0];
+                  return ISO_LABEL_MAP[lang] || label;
+                }
+                return label;
+              };
               this.addSubtitle = function (event) {
                 var subtitle = event.subtitle;
+                if (_this.isCea608Track(subtitle)) {
+                  return;
+                }
                 if (!_this.listElement.hasItem(subtitle.id)) {
-                  _this.listElement.addItem(subtitle.id, subtitle.label);
+                  _this.listElement.addItem(subtitle.id, _this.resolveSubtitleLabel(subtitle));
                 }
               };
               this.removeSubtitle = function (event) {
@@ -16559,9 +16584,11 @@
                   key: SubtitleSwitchHandler.SUBTITLES_OFF_KEY,
                   label: i18n_1.i18n.getLocalizer('off'),
                 };
-                var subtitles = _this.player.subtitles.list();
+                var subtitles = _this.player.subtitles.list().filter(function (subtitle) {
+                  return !_this.isCea608Track(subtitle);
+                });
                 var subtitleToListItem = function (subtitle) {
-                  return { key: subtitle.id, label: subtitle.label };
+                  return { key: subtitle.id, label: _this.resolveSubtitleLabel(subtitle) };
                 };
                 _this.listElement.synchronizeItems(
                   __spreadArray([offListItem], subtitles.map(subtitleToListItem), true),
